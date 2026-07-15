@@ -1,0 +1,4683 @@
+﻿__PAGEZERO
+__auth_stubs
+__objc_stubs
+__objc_methlist
+__gcc_except_tab__TEXT
+__objc_classname__TEXT
+__objc_methname
+__objc_methtype
+__unwind_info
+__DATA_CONST
+__auth_got
+__auth_ptr
+__cfstring
+__objc_classlist__DATA_CONST
+__objc_protolist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__objc_arraydata__DATA_CONST
+__objc_arrayobj
+__objc_intobj
+__objc_dictobj
+__objc_const
+__objc_selrefs
+__objc_classrefs__DATA
+__objc_superrefs__DATA
+__objc_ivar
+__objc_data
+__thread_vars
+__thread_bss
+__LINKEDIT
+/usr/lib/dyld
+/System/Library/Frameworks/Foundation.framework/Foundation
+/System/Library/Frameworks/UIKit.framework/UIKit
+/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+/System/Library/Frameworks/IOSurface.framework/IOSurface
+/System/Library/Frameworks/Photos.framework/Photos
+/System/Library/Frameworks/PhotosUI.framework/PhotosUI
+/System/Library/Frameworks/Security.framework/Security
+/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+@loader_path/libxpf.dylib
+/usr/lib/libc++.1.dylib
+/usr/lib/libz.1.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/AVFAudio.framework/AVFAudio
+/System/Library/Frameworks/AVKit.framework/AVKit
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+/System/Library/Frameworks/SafariServices.framework/SafariServices
+/System/Library/Frameworks/WebKit.framework/WebKit
+/usr/lib/libobjc.A.dylib
+@executable_path/Frameworks
+**639;.354
+4).;4.3;.?
+*5(.)*.2(?;>
+?*.(;9?<(3>; unzip 1.01 Copyright 1998-2004 Gilles Vollant - http://www.winimage.com/zLibDll
+ zip 1.01 Copyright 1998-2004 Gilles Vollant - http://www.winimage.com/zLibDll
+T/tDA8ouzEUoyGN2OVTPUI+F0jthgw2BauiFOj8L8iU=
+iFvwVyJSxnQdyaUvUERIf+8qk7gRze3612JMwoO3zdU=
+<TGResult valid=%@ status=%ld product=%@ expiry=%@>
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsWXLKdoCMCPgqr9yeGM9
+upgrcH9TUdf7mVU+fCvS2IFx5j9uFXpfisqlH1c4uKe6rAKobIEU2jvHRB19X2I8
+bbqjb/WOgJPhnZDJgkxme0lW5yVkSW9DZtM7T7U0u9kZLVzzXtmPPwFBPOT7pvKZ
+eSzrPFoz8p9TWYwP/oWDQVqs5Ux/ipUHLbrXcdg9dU/5f2eQX0l9bE0SzxmwmgHQ
+HueRZRPmoEdiNktMyBMweyox6CHaZXAT4GMYsY+hU3U66Yqyj7tA3txIYdCeDO8E
+jqooUW3IPYAmxDqpNykhNdPtVi5p9IEXSWAD/BRPfi1Sa/oJCCFlC3QJkDZZna8G
+-----END PUBLIC KEY-----
+v16@?0@"NSNotification"8
+v32@?0q8@"NSString"16@?<v@?@"NSString">24
+v16@?0@"UITextField"8
+APPNAME-30d-xxxxxxxxxxxxxxxx
+v16@?0@"UIAlertAction"8
+v16@?0@"TGResult"8
+v16@?0@"NSString"8
+TrollGameKit.m
+TrollGameKit: serverURL must not be empty.
+TrollGameKit: secretKey must not be empty.
+TrollGameKit: call +configureWithServerURL:secretKey: or +startWithSecret: first.
+activatedAt
+statusCode
+MAINTENANCE
+UNAUTHORIZED
+DEVICE_MISMATCH
+different device
+VERIFY_UDID
+-----BEGIN RSA PUBLIC KEY-----
+-----END RSA PUBLIC KEY-----
+[TrollGameKit] setPublicKeyPEM: invalid base64 in PEM
+[TrollGameKit] RSA-2048 public key configured.
+Missing or invalid auth token.
+Auth token bound to a different device.
+[TGKit-SDK] checkDevice sending POST to /api/keys/device...
+Network error
+Unauthorized
+No key found for this device
+v32@?0@"NSData"8@"NSURLResponse"16@"NSError"24
+[TGKit-SDK] validateKey sending POST to /api/keys/validate...
+[TGKit-SDK] validateKey network error: %@
+resetCount
+Reset failed
+FridaGadget
+substitute
+SubstrateInserter
+FCUUIDsOfUserDevicesDidChangeNotification
+fc_uuidForInstallation
+fc_uuidForDevice
+fc_uuidsOfUserDevices
+fc_uuidsOfUserDevicesToggle
+Invalid uuid to migrate
+uuid value should be a string of 32 or 36 characters.
+NSUbiquitousKeyValueStore
+v32@?0@8@16^B24
+uuidsOfUserDevices
+^[0-9a-f]{32}|[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12}$
+com.kishikawakatsumi.uickeychainstore
+the key must not to be nil
+failed to convert string to data
+failed to convert data to string
+Unexpected error has occurred.
+error: [%@] %@
+GenericPassword
+accessGroup
+InternetPassword
+authenticationType
+accessibility
+synchronizable
+Cannot specify both an authenticationPolicy and a synchronizable
+v24@?0@"NSArray"8@"NSError"16
+the server property must not to be nil, should use 'keyChainStoreWithServer:protocolType:' initializer to instantiate keychain store
+v16@?0^{__CFError=}8
+v24@?0^{__CFArray=}8^{__CFError=}16
+Unavailable 'authenticationPrompt' attribute on iOS versions prior to 8.0.
+Unavailable 'Touch ID integration' on iOS versions prior to 8.0.
+Unavailable 'UICKeyChainStoreAccessibilityWhenPasscodeSetThisDeviceOnly' attribute on iOS versions prior to 8.0.
+Security error has occurred.
+OSStatus error: [%@] %@
+Default Configuration
+Error: cannot read %zx bytes at %llx, maximum is %zx.
+Error: cannot write %zx bytes at %llx, maximum is %zx.
+Requirement blob
+Requirements blob
+Code directory blob
+Embedded signature blob
+Embedded signature blob (old)
+Entitlements blob
+DER entitlements blob
+Detached signature blob
+Signature blob
+Launchd contraint blob
+Unknown blob type
+Alternate code directory slot (1)
+Alternate code directory slot (2)
+Alternate code directory slot (3)
+Alternate code directory slot (4)
+Alternate code directory slot (5)
+Alternate code directory slot (invalid)
+Code directory slot
+Requirements slot
+Resource Dir slot
+Application slot
+Entitlements slot
+DER entitlements slot
+Launch constraint slot (self)
+Launch constraint slot (parent)
+Launch constraint slot (responsible)
+Library constraint slot
+Signature slot
+Identification slot
+Ticket slot
+v40@?0{load_command=II}8Q16^v24^B32
+Code_Signature-Data
+Slot %d: %s (offset 0x%x, type: 0x%x).
+This is the %s, magic %#x.
+Loaded library launch constraints hash
+Responsible process launch constraints hash
+Parent process launch constraints hash
+Process launch constraints hash
+DER entitlements hash
+DMG signature hash
+Entitlements hash
+App-specific hash
+CodeResources hash
+Requirements blob hash
+Info.plist hash
+Code directory:
+Magic: 0x%X
+Length: 0x%x
+Version: 0x%x
+Flags: 0x%x
+Hash offset: 0x%x
+Identifier: "%s" (@ 0x%x)
+Number of special slots: %u
+Number of code slots: %u
+Code limit: 0x%x
+Hash size: 0x%x
+Hash type: %s
+Platform: %d
+Page size: 0x%x
+Scatter offset: 0x%x
+Team ID: "%s" (@ 0x%x)
+  (unable to calculate, probably EOF?)
+  (should be: 
+All page hashes are valid!
+Some page hashes are invalid!
+Error: unknown hash type (%d)
+v32@?0^{DyldSharedCacheMapping=QQ^vQIIQ^vQ^{DyldSharedCacheFile}}8^{DyldSharedCacheFile=*Qi{dyld_cache_header=[16c]IIIIQQQQQQQ[16C]QIIQQQQQQQQQQQQIb8b1b1b1b1b20QQQQQQQQQQQIIQQQQQIIIIQQII[16C]QQQQIIIQQ
+QQQQII}}16^B24
+Warning: DSC version is newer than what ChOma supports, your mileage may vary.
+Error: Failed to load main cache file
+dyld_v1  armv7
+dyld_v1  arm64
+dyld_v1  arm64e
+Error: DSC has unsupported architecture
+Error: Failed to map subcache with suffix %s
+Error: UUID mismatch on subcache with suffix %s
+Error: Failed to map symbols subcache
+Error: UUID mismatch on symbols subcache
+Warning: Failed to parse DSC %s.
+v32@?0^{section_64=[16c][16c]QQIIIIIIII}8^{segment_command_64=II[16c]QQQQiiII}16^B24
+Warning: Unsupported chained fixup version (%u)
+v24@?0^{DyldSharedCachePointer=QQBCSB}8^B16
+v24@?0^{segment_command_64=II[16c]QQQQiiII}8^B16
+Error: failed to open entitlements file
+Error: failed to allocate memory for entitlements file
+Error: failed to read entitlements file
+Error: failed to create CFData from entitlements file
+Error: failed to parse entitlements file
+Error: failed to create property list from entitlements file
+Error: failed to convert entitlements property list to data
+Error: failed to allocate memory for entitlements blob
+Error: failed to create entitlements blob
+Error: failed to encode sequence
+Error: missing entitlement key
+Error: failed to encode entitlement key
+Error: failed to encode entitlement value
+Error: failed to encode set of entitlements
+Error: entitlements file is not a dictionary
+Error: failed to allocate memory for entitlements
+Error: failed to parse entitlements
+Parsed %d entitlements from entitlements file.
+Error: failed to allocate memory for encoded entitlements
+Error: failed to encode entitlement
+Error: failed to encode entitlements
+Error: failed to allocate memory for entitlement key
+Error: failed to convert entitlement key to C string
+Error: failed to allocate memory for entitlement value
+Error: failed to convert entitlement value to C string
+Error: failed to allocate memory for entitlement array
+Error: failed to allocate memory for entitlement
+Error: failed to convert entitlement to C string
+Error: unknown entitlement value type
+[%s:%d] Failed to create exception port: %s (kr=%d)
+create_exception_port
+[%s:%d] reply_with_state failed: %s
+reply_with_state
+Error: Failed to parse fat slices, memory_stream_get_size returned MEMORY_STREAM_SIZE_INVALID
+Error: invalid number of MachO slices (%d), this likely means you are not using an iOS MachO.
+Error: failed to add MachO to Fat.
+Error: stat returned %d for %d.
+Failed to open %s: %s
+Error: file_stream_write failed, file is not auto expandable.
+Wonder Woman
+Florentino
+Bolt Baron
+i Tel'Annas
+lachansinhmenh
+Flowborn (Ph
+Flowborn (X
+Unknown Hero
+hw.cputype
+Error: no cputype.
+hw.cpusubtype
+Error: no cpusubtype.
+Error: failed to find a preferred MachO slice that matches the host architecture.
+kf_camPresetIdx
+camera.aperture
+Camera FOV
+xmark.circle.fill
+[HUD] overlay cleared
+[HUD] overlay cleared (sync)
+sel_registerName
+objc_msgSend
+[KFHUD] delegate didFinishLaunching
+SBSAccessibilityWindowHostingController
+registerWindowWithContextID:atLevel:
+[KFHUD] SBSAWHC registered cid=%u level=%.0f
+[KFHUD] WARNING: SBSAccessibilityWindowHostingController not found
+app.kumquat2515.spinach8011.hud.dismiss
+/tmp/kf_esp_screen
+/tmp/kf_esp_vp
+/tmp/kf_esp_heroes
+[KFHUD] HUD process starting (parent pid=%d)
+/tmp/kf_hud.pid
+SBSpringBoardDidLaunchNotification
+app.kumquat2515.spinach8011.hud.show
+/System/Library/PrivateFrameworks/BackBoardServices.framework/BackBoardServices
+[KFHUD] display link started at 15Hz
+Open Arena of Valor
+t.me/Anhvu99er
+Startup Failed
+ESP Active
+ESP overlay will be cleaned before exit.
+[ERR] XPF failed
+[ERR] bad proc_ro
+[ERR] bad task
+[ERR] bad vmMap
+[ERR] dyld offset not found
+[!] Timeout: %s did not restart
+[+] Game restarted pid=%d
+Info Panel
+Stream Mode (hide ESP)
+MINIMAP SETTINGS
+Horizontal X
+Vertical Y
+INFO PANEL SETTINGS
+MONSTER ESP
+ESP MONSTER
+Enable Monster ESP
+Enable ESP Mons
+Show Monster HP
+Elite Only
+Show Monster Name
+Restore Original Camera
+Skin Mod (.zip)
+Mod Skin (.zip)
+Lobby Mod (video)
+Choose skin mod file (.zip)
+Remove Skin Mod
+Remove Skin Mod?
+All files in Documents/Resources will be deleted.
+AoV data not found. Run exploit first.
+No skin mod to remove.
+Skin mod removed!
+Choose new video
+Restore original video
+Metal HUD: ON
+Metal HUD: OFF (enable in Settings)
+Aov Darksword
+???key=%ld
+[STATUSBAR] Adding heart beside time...
+HH:mm - E d/M/yyyy
+CFStringCreateWithCString
+sharedApplication
+statusBarStateAggregator
+valueForKey:
+setDateFormat:
+_updateTimeItems
+UIApplication
+[STATUSBAR] app = 0x%llx
+[STATUSBAR] aggregator = 0x%llx
+_timeItemDateFormatter
+[STATUSBAR] _timeItemDateFormatter = 0x%llx
+[STATUSBAR] Set format: HH:mm
+_shortTimeItemDateFormatter
+[STATUSBAR] Also patched _shortTimeItemDateFormatter
+performSelectorOnMainThread:withObject:waitUntilDone:
+[STATUSBAR] done
+[HIDELABEL] Hiding icon labels...
+sharedInstance
+iconManager
+dockListView
+objectAtIndex:
+SBIconController
+[HIDELABEL] SBIconController not found
+[HIDELABEL] SBIconController = 0x%llx
+[HIDELABEL] dock = 0x%llx
+rootFolderController
+iconListViews
+[HIDELABEL] rootFolderController = 0x%llx
+[HIDELABEL] %llu icon list views
+[HIDELABEL] Hidden labels on %d icon views
+SpringBoard
+[5ICON] Starting...
+iconListModel
+setGridSize:
+layoutConfiguration
+setNumberOfPortraitColumns:
+setNeedsLayout
+[5ICON] Selectors registered
+[5ICON] SBIconController not found
+[5ICON] sharedInstance failed
+[5ICON] ctrl = 0x%llx
+[5ICON] dockListView not found
+[5ICON] dock = 0x%llx
+[5ICON] gridSize 0x%llx -> 0x%llx
+[5ICON] portraitColumns -> 5
+[5ICON] done
+objc_getClass
+setAllowsLabelArea:
+respondsToSelector:
+Error: invalid number of load commands (%d).
+Warning: Stopped reading load commands of %p at %#llx, because offset (%#llx) exceeded sizeofcmds (%#x), only read %d load commands instead of %d
+LC_UNKNOWN
+Ignoring unknown command: 0x%x.
+<redacted>
+WARNING: Malformed dependency at 0x%llx (Name offset out of bounds)
+WARNING: Malformed dependency at 0x%llx (Name has zero length)
+WARNING: Malformed dependency at 0x%llx (Name has non NULL end byte)
+WARNING: Malformed rpath at 0x%llx (Path offset out of bounds)
+WARNING: Malformed rpath at 0x%llx (Path has zero length)
+WARNING: Malformed rpath at 0x%llx (Name has non NULL end byte)
+Error: sizeofcmds is not a multiple of %lu (%d).
+Error: failed to create Fat from file: %s
+LC_SEGMENT
+LC_UNIXTHREAD
+LC_LOADFVMLIB
+LC_IDFVMLIB
+LC_FVMFILE
+LC_PREPAGE
+LC_DYSYMTAB
+LC_LOAD_DYLIB
+LC_ID_DYLIB
+LC_LOAD_DYLINKER
+LC_ID_DYLINKER
+LC_PREBOUND_DYLIB
+LC_ROUTINES
+LC_SUB_FRAMEWORK
+LC_SUB_UMBRELLA
+LC_SUB_CLIENT
+LC_SUB_LIBRARY
+LC_TWOLEVEL_HINTS
+LC_PREBIND_CKSUM
+LC_LOAD_WEAK_DYLIB
+LC_SEGMENT_64
+LC_ROUTINES_64
+LC_CODE_SIGNATURE
+LC_SEGMENT_SPLIT_INFO
+LC_REEXPORT_DYLIB
+LC_LAZY_LOAD_DYLIB
+LC_ENCRYPTION_INFO
+LC_DYLD_INFO
+LC_DYLD_INFO_ONLY
+LC_LOAD_UPWARD_DYLIB
+LC_VERSION_MIN_MACOSX
+LC_VERSION_MIN_IPHONEOS
+LC_FUNCTION_STARTS
+LC_DYLD_ENVIRONMENT
+LC_DATA_IN_CODE
+LC_SOURCE_VERSION
+LC_DYLIB_CODE_SIGN_DRS
+LC_ENCRYPTION_INFO_64
+LC_LINKER_OPTION
+LC_LINKER_OPTIMIZATION_HINT
+LC_VERSION_MIN_TVOS
+LC_VERSION_MIN_WATCHOS
+LC_BUILD_VERSION
+LC_DYLD_EXPORTS_TRIE
+LC_DYLD_CHAINED_FIXUPS
+LC_FILESET_ENTRY
+LC_ATOM_INFO
+LC_FUNCTION_VARIANTS
+LC_FUNCTION_VARIANT_FIXUPS
+LC_TARGET_TRIPLE
+Error: failed to get existing values for __LINKEDIT segment.
+Updating __LINKEDIT segment...
+Updating LC_CODE_SIGNATURE load command...
+Error: memory_stream_insert failed
+Error: memory_stream_delete failed
+Error: memory_stream_copy_data failed, invalid size detected
+Error: memory_stream_copy_data failed, originOffset OOB
+Error: memory_stream_copy_data failed, targetOffset OOB
+Error: memory_stream_copy_data failed on memory_stream_read (%d)
+Error: memory_stream_copy_data failed on memory_stream_write (%d)
+[%s:%d] found expectedLR !!!!!!!!! 
+find_return_value_offs
+[%s:%d] !!!!!!!!!!!!! MIG syscall intercepted for thread: 0x%llx
+disable_filter_on_thread
+[%s:%d] Timeout waiting for a syscall
+wait_for_mig_syscall
+[%s:%d] Pausing filter bypass
+start_filter_bypass
+[%s:%d] Resuming filter bypass
+[%s:%d] Thread started
+mig_bypass_thread_func
+[%s:%d] Thread terminated
+[%s:%d] Already initialized
+mig_bypass_init
+[%s:%d] Initialized: kernelSlide=0x%llx, migLock=0x%llx, migSbxMsg=0x%llx, migLR=0x%llx
+[%s:%d] Not initialized
+mig_bypass_start
+[%s:%d] Thread already running
+[%s:%d] pthread_create failed: %d
+[%s:%d] Bypass thread started successfully
+[%s:%d] WARNING: Bypass thread may not have started
+[%s:%d] Stopped
+mig_bypass_stop
+[%s:%d] Destroyed
+mig_bypass_destroy
+[MOD] pickZipWithCompletion called, presenter=%@
+com.pkware.zip-archive
+public.zip-archive
+public.data
+public.item
+[MOD] document picker presented
+[MOD] didPickDocumentsAtURLs: %lu urls
+[MOD] didPickDocumentAtURL (legacy): %@
+[MOD] selected URL: %@
+[MOD] startAccessingSecurityScopedResource: %d
+[MOD] copy to temp: %d error=%@ tmpPath=%@
+[MOD] document picker cancelled
+[MOD] _install: %@
+[MOD] _install bg thread: self=%p
+[MOD] game data path: %@
+[MOD] SSZipArchive unzip: %d
+/private/var/mobile/Containers/Data/Application
+/%@/.com.apple.mobile_container_manager.metadata.plist
+MCMMetadataIdentifier
+/%@/Documents
+$sSwySWSnySiGciM
+[%s:%d] $sSwySWSnySiGciM symbol not found
+find_pacia_gadget
+[%s:%d] found pacia gadget, gadget addr = 0x%llx
+[%s:%d] couldn't find pacia gadget :(
+[%s:%d] find_pacia_gadget failed
+remote_pac
+[%s:%d] thread_create failed, kr = %s (0x%x)
+[%s:%d] create_exception_port failed
+[%s:%d] thread_set_exception_ports failed: 0x%x (%s)
+[%s:%d] task_get_ipc_port_kobject failed
+[%s:%d] thread_set_state_wrapper failed
+[%s:%d] thread_resume failed: 0x%x (%s)
+[%s:%d] wait_exception failed
+[%s:%d] Failed to get kstack. Retry...
+set_exception_port_on_thread
+[%s:%d] Failed to get SP. Retry...
+[%s:%d] Couldn't find g_RC_dummyThreadTro
+[%s:%d] Wrong tro. Retry...
+[%s:%d] got empty tro, skip writing
+[%s:%d] didnt find tro for 0x%llx
+[%s:%d] Don't receive first exception on original thread
+do_remote_call_temp
+[%s:%d] Trojan thread cleanup
+[%s:%d] Don't receive second exception on original thread
+[%s:%d] %s func's retValue = 0x%llx(%llu)
+[%s:%d] getpid failed
+[%s:%d] spinning here...
+[%s:%d] Unable to find symbol: %s
+do_remote_call_stable
+[%s:%d] Don't receive first exception on new thread
+[%s:%d] Don't receive second exception on new thread
+[%s:%d] Failed to receive exception while restoring
+restore_trojan_thread
+pthread_exit
+[%s:%d] g_RC_shmemCache full
+put_shmem_in_cache
+[%s:%d] remote_read failed: unable to find remote page
+remote_read
+[%s:%d] remote_read failed at 0x%llx
+remote_hexdump
+[0x%016llx+0x%03zx] 
+[%s:%d] remote_write failed: unable to find remote page
+remote_write
+[%s:%d] process: %s, pid: %u
+init_remote_call
+[%s:%d] firstExceptionPort: 0x%x, secondExceptionPort: 0x%x
+[%s:%d] Couldn't create exception ports
+[%s:%d] failed on getting first thread at all, resetting
+[%s:%d] Set exception port on thread:0x%llx failed
+[%s:%d] failed on first thread, resetting first thread and currThread
+[%s:%d] Inject EXC_GUARD on thread:0x%llx failed, not injecting
+[%s:%d] Inject EXC_GUARD on thread:0x%llx OK
+[%s:%d] Got weird tro on first thread, resetting
+[%s:%d] Got empty next thread. Retry
+[%s:%d] Break because of empty next thread
+[%s:%d] Valid threads: %d
+[%s:%d] Injected threads: %d
+[%s:%d] Exception injection failed. Aborting.
+[%s:%d] Failed to receive first exception
+[%s:%d] Finish clearing EXC_GUARD from all other threads...
+[%s:%d] trojanMemTemp: 0x%llx
+pthread_create_suspended_np
+[%s:%d] pthreadAddr: 0x%llx
+pthread_mach_thread_np
+[%s:%d] callThreadPort: 0x%llx
+[%s:%d] Failed set exc port on new thread, retrying...
+[%s:%d] All good! Resuming trojan thread...
+thread_resume
+[%s:%d] Couldn't resume new thread, falling back to original
+[%s:%d] New thread created, resuming original
+[%s:%d] Original thread restored
+[%s:%d] Task pid: %d
+[%s:%d] Finished successfully
+failed to open zip file
+SSZipArchiveErrorDomain
+failed to open first file in zip file
+[SSZipArchive] Error: %@
+Unzipping nested .zip file:  %@
+[SSZipArchive] Failed to set attributes - whilst setting modification date
+[SSZipArchive] Failed to set attributes - whilst setting permissions
+Failed to create symbolic link at "%@" to "%@". symlink() error code: %d
+[SSZipArchive] Set attributes failed for directory: %@.
+[SSZipArchive] Error setting directory file modification date attribute: %@
+crc check failed for file
+SSZipArchive.m
+Attempting open an archive which is already open
+Attempting to write to an archive which was never opened
+[SSZipArchive] Attempting to close an archive which was never opened
+[%s:%d] got invalid tro of thread, not injecting exception since thread is dead
+inject_guard_exception
+[%s:%d] invalid tro, still clearing to avoid crash
+clear_guard_exception
+[%s:%d] Unable to read thread state: 0x%x (%s)
+thread_get_state_wrapper
+[%s:%d] Failed thread_set_state: 0x%x (%s)
+thread_set_state_wrapper
+[%s:%d] Unable to resume thread: 0x%x (%s)
+thread_resume_wrapper
+v40@?0Q8Q16Q24^B32
+[%s:%d] vm_map_find_entry failed
+vm_get_object
+[%s:%d] mach_vm_allocate failed: %s
+vm_create_shmem_with_object
+[%s:%d] mach_make_memory_entry_64 failed: %s
+[%s:%d] Entry cannot be a submap or kernel object
+[%s:%d] mach_vm_map failed: %s
+[%s:%d] mach_vm_deallocate failed: %s
+[%s:%d] Failed to get VM object for 0x%llx
+vm_map_remote_page
+Extra/2022.V3/ISPDiff/LobbyMovie
+.aov_lobby_backup
+public.movie
+v24@?0@"NSURL"8@"NSError"16
+[KFUN][ESPU] entry localESP=%p hasVP=%d heroes=%d
+[KFUN][ESPU] cleanup: notReady=%d warmup reset
+[KFUN][ESPU] W2S recovered after %d failures
+[MM-DBG] stream=%d isValid=%d bigMap=%d mmXY=(%.0f,%.0f) mmWH=(%.0f,%.0f) scrWH=(%.0f,%.0f) count=%d hasVP=%d
+[KFUN][MON] render mCount=%d
+[KFUN][TIMING] frame=%.1fms heroes=%d monsters=%d slots=%d
+[KFUN][ESPU] pool frame: slots=%d heroes=%d
+v16@?0@"UIGraphicsImageRendererContext"8
+[KFUN][ESPU] iosurface heroes=%d
+[ESP] pool init: %d slots, %lu total layers
+[KFUN][HUD] spawned HUD process pid=%d
+app.kumquat2515.spinach8011.hud
+/tmp/kf_hud_agent.plist
+ProgramArguments
+StandardOutPath
+/tmp/kf_hud_stdout.log
+StandardErrorPath
+/tmp/kf_hud_stderr.log
+/var/mobile/Library/LaunchAgents
+app.kumquat2515.spinach8011.hud.plist
+/bin/launchctl
+[KFUN][HUD] launchctl load submitted (lpid=%d)
+[KFUN][HUD] launchctl spawn failed rc=%d
+/var/containers/Shared/SystemGroup/systemgroup.com.apple.mobilegestaltcache/Library/Caches/com.apple.MobileGestalt.plist
+[KFUN][MetalHUD] failed to read MobileGestalt plist
+CacheExtra
+EqrsVvjcYDdxHBiQmGhAWw
+[KFUN][MetalHUD] failed to serialize plist
+[KFUN][MetalHUD] killed SpringBoard pid=%d
+/usr/bin/killall
+[KFUN][MetalHUD] failed to write MobileGestalt plist
+[MetalHUD] Cannot read plist (sandbox not patched?)
+[MetalHUD] Parse error: %s
+[MetalHUD] CacheExtra key not found
+[MetalHUD] Serialize error: %s
+[MetalHUD] %s key -> %s
+kfSilentPlayer
+[AUDIO] silent player restarted
+[AUDIO] interruption began (game mic/call) 
+ starting bg task
+KFMicBridge
+[AUDIO] interruption ended 
+ restoring session
+[AUDIO] media server reset 
+ recreating player
+[AUDIO] watchdog: player dead 
+ restoring
+[!] Exploit failed: ret=%d kernel_base=0x%llx
+[!] iOS version may not be supported or exploit was patched.
+[+] Exploit OK: kernel_base=0x%llx slide=0x%llx
+[!] R/W channel broken immediately after exploit (g_krw_error=%d)
+[+] kernel magic=0x%x (expect 0xfeedfacf)
+[!] R/W test failed: magic=0x%x krw_error=%d
+[!] PUAF race succeeded but socket R/W is broken on this firmware.
+[+] R/W channel verified OK
+[+] sandbox patched: rw on /
+[!] patch_sandbox_ext failed 
+ JSON write may still fail
+[+] XPF OK 
+ pmap_off=0x%x gVirtBase=0x%llx gPhysBase=0x%llx
+[!] XPF failed (ret=%d) 
+ physread64_user disabled
+[~] manual mode=%d but detected=%d (%s) 
+ using detected
+[~] waiting for AOV process (attempt %d)
+[+] detected %s (%s) pid=%d proc=0x%llx
+[RVA] %s: Kyrios=0x%llx Cam=0x%llx Battle=0x%llx
+[IL2CPP] proc_pidpath 
+/var/containers/Bundle/Application
+[IL2CPP] looking for app: %s
+[IL2CPP] found via scan: %s
+Frameworks/UnityFramework.framework/UnityFramework
+Data/Managed/Metadata/global-metadata.dat
+[IL2CPP] unity=%s
+ cache ready
+ init failed
+ could not find game bundle
+[KFUN][STEP4] setting up local overlay window
+[KFUN] espDisplayLink registered (30fps, paused until battle)
+[KFUN][STEP4] registering window with SpringBoard via TaskRop...
+[KFUN][STEP4] SB registration done, remote render path disabled
+[ERR] bad proc_ro=0x%llx
+[ERR] bad task=0x%llx
+[ERR] bad vmMap=0x%llx
+[_pg] vm_map_remote_page set g_krw_error for pa=0x%llx 
+ resetting (socket intact)
+^{VMShmem=QQQB}16@?0Q8
+B32@?0Q8^v16Q24
+[rread64] failed for addr=0x%llx
+B24@?0Q8Q16
+B20@?0Q8I16
+Project_d.dll
+KyriosFramework
+_actorManager
+[OFF] OFF_Kyrios_actorManager = 0x%llx
+[OFF] miss: KyriosFramework._actorManager 
+ keep 0x%llx
+Kyrios.Actor
+ActorManager
+HeroActors
+[OFF] OFF_ActorMgr_HeroActors = 0x%llx
+[OFF] miss: ActorManager.HeroActors 
+MonsterActors
+[OFF] OFF_ActorMgr_MonsterActors = 0x%llx
+[OFF] miss: ActorManager.MonsterActors 
+ActorLinker
+[OFF] OFF_AL_location = 0x%llx
+[OFF] miss: ActorLinker._location 
+<bVisible>k__BackingField
+[OFF] OFF_AL_bVisible = 0x%llx
+[OFF] miss: ActorLinker.<bVisible>k__BackingField 
+ValueComponent
+[OFF] OFF_AL_ValueComponent = 0x%llx
+[OFF] miss: ActorLinker.ValueComponent 
+TheActorMeta
+[OFF] AL_TheActorMeta=0x%llx AL_ActorCamp=0x%llx
+ValueLinkerComponent
+<actorHp>k__BackingField
+[OFF] OFF_VL_hp = 0x%llx
+[OFF] miss: ValueLinkerComponent.<actorHp>k__BackingField 
+<actorHpTotal>k__BackingField
+[OFF] OFF_VL_hpMax = 0x%llx
+[OFF] miss: ValueLinkerComponent.<actorHpTotal>k__BackingField 
+<actorSoulLevel>k__BackingField
+[OFF] OFF_VL_soulLevel = 0x%llx
+[OFF] miss: ValueLinkerComponent.<actorSoulLevel>k__BackingField 
+Assets.Scripts.GameSystem
+CBattleSystem
+<TheMinimapSys>k__BackingField
+[OFF] OFF_CBattleSys_MinimapSys = 0x%llx
+[OFF] miss: CBattleSystem.<TheMinimapSys>k__BackingField 
+MinimapSys
+mMapTransferData
+[OFF] OFF_MinimapSys_MapTransfer = 0x%llx
+[OFF] miss: MinimapSys.mMapTransferData 
+curMapType
+[OFF] OFF_MinimapSys_MapType = 0x%llx
+[OFF] miss: MinimapSys.curMapType 
+Assets.Scripts.Framework
+GameFramework
+newResolutionMode
+[OFF] OFF_GameFW_ResMode = 0x%llx
+[OFF] miss: GameFramework.newResolutionMode 
+Project.Plugins_d.dll
+NucleusDrive.Logic
+LLogicCore
+[OFF] OFF_LLogicCore_instances = 0x%llx
+[OFF] miss: LLogicCore.instances 
+<DeskBattleLogic>k__BackingField
+[OFF] OFF_LDeskBase_DeskBattleLogic = 0x%llx
+[OFF] miss: LDeskBase.<DeskBattleLogic>k__BackingField 
+LBattleLogic
+<gameActorMgr>k__BackingField
+[OFF] OFF_LBattleLogic_gameActorMgr = 0x%llx
+[OFF] miss: LBattleLogic.<gameActorMgr>k__BackingField 
+LGameActorMgr
+[OFF] OFF_LGameActorMgr_HeroActors = 0x%llx
+[OFF] miss: LGameActorMgr.HeroActors 
+[OFF] OFF_LGameActorMgr_MonsterActors = 0x%llx
+[OFF] miss: LGameActorMgr.MonsterActors 
+mIsHostCtrlActor
+[OFF] OFF_AL_mIsHostCtrl = 0x%llx
+[OFF] miss: ActorLinker.mIsHostCtrlActor 
+LActorRoot
+SkillControl
+[OFF] OFF_LActorRoot_SkillControl = 0x%llx
+[OFF] miss: LActorRoot.SkillControl 
+LSkillComponent
+[OFF] OFF_LSkillComponent_SlotArray = 0x%llx
+[OFF] miss: LSkillComponent.SlotArray 
+[OFF] OFF_LActorRoot_location = 0x%llx
+[OFF] miss: LActorRoot._location 
+[OFF] OFF_LActorRoot_ValueComponent = 0x%llx
+[OFF] miss: LActorRoot.ValueComponent 
+ValuePropertyComponent
+_nObjCurHp
+[OFF] OFF_VPC_nObjCurHp = 0x%llx
+[OFF] miss: ValuePropertyComponent._nObjCurHp 
+[~] Battle ended 
+ resetting IL2CPP pointers
+[SCAN] interval=%.0fms (target 50ms) 
+ data irregularity!
+[REFRESH] Force refresh triggered at tick=%d
+[FATAL] g_krw_error=%d at tick=%d 
+ closing app
+[!] %s pid=%d no longer exists 
+ resetting game tracking
+[+] %s restarted: pid=%d proc=0x%llx
+[!] restart: bad proc_ro=0x%llx 
+ waiting for process to stabilise
+[!] restart: bad task=0x%llx
+[!] restart: bad vmMap=0x%llx
+[+] restart: proc_ro=0x%llx task=0x%llx vmMap=0x%llx
+[IL2] Scanning %s vm_map for UnityFramework (tick %d)...
+[IL2] candidate[%d] start=0x%llx sz=0x%llx
+[IL2] MachO base=0x%llx sz=0x%llx ft=%u seg0=%.16s
+[IL2] scan done: totalEntries=%d tried=%d krw_error=%d
+[+] UnityFramework base=0x%llx (size=0x%llx)
+[AoV] ActorMgr=0x%llx
+[AutoSwitch] %s 
+[AoV] CameraSystem=0x%llx MobaCamera=0x%llx
+[CAM] orig captured: FOV=%.1f ZoomRate=%.1f
+ Pitch=%.1f ZoomAmt=%.2f
+[VP-DBG] tick=%d cameraManaged=0x%llx
+[VP] CameraData=0x%llx via chunk scan (cam=0x%llx)
+[VP-A] chunk scan done ok=%d fail=%d
+[VP-V] skip off=0x%x: rx=%.3f ry=%.3f rz=%.3f
+[VP] NativeCam=0x%llx vOff=0x%x pOff=0x%x P5=%.3f FOV=%.1f
+[VP-B] nativeCam=0x%llx bestV=%d bestP=%d scanning P candidates:
+  P@0x%x: P[0]=%.3f P[5]=%.3f P[11]=%.3f P[14]=%.3f P[15]=%.3f
+[FOV] nativeCam=0x%llx fovOff=0x%x origFOV=%.1f
+ (P5=%.3f expFOV=%.1f
+[FOV] scan failed nativeCam=0x%llx expFOV=%.1f
+[VP] 30 consecutive read failures 
+ resetting CameraData
+[MM] CBattleSystem=0x%llx
+[GFW] GameFramework=0x%llx
+[MM] minimap settingMode=%d raw pos=(%.1f,%.1f) sz=(%.1f,%.1f) 
+ UIKit cx=%.1f cy=%.1f sz=%.1fx%.1f
+[MM] mapTransfer=0x%llx rawPosX=%.1f rawSzW=%.1f (waiting)
+[CAMP] local player detected: rawCamp=%d
+[CAMP] s_localCamp=0 
+ skipping tick #%d (heroes=%d)
+[CAMP] localCamp=%d 
+ normalized: %d allies, %d enemies (total %d)
+[KFUN][MON] minionCount=%d
+[FATAL] HackLoop exception: %s 
+[!] Crash: %@
+[STATE] %ld 
+[STATE] resetGameTracking 
+ game process died, resetting all caches
+v20@?0B8@"NSString"12
+Documents/Resources
+[KFUN][KGVN-OVL] IOSurfaceCreate failed
+[KFUN][KGVN-OVL] IOSurface created id=%u sz=%dx%d
+[KFUN][KGVN-OVL] init_remote_call kgvn...
+[KFUN][KGVN-OVL] init_remote_call failed=%d
+[KFUN][KGVN-OVL] remote session OK
+[KFUN][KGVN-OVL] kgvn windows=%llu
+[KFUN][KGVN-OVL] targetWin=0x%llx winLayer=0x%llx
+[KFUN][KGVN-OVL] overlayLayer=0x%llx
+NSMutableDictionary
+valueForKeyPath:
+dictionary
+setObject:forKey:
+numberWithLongLong:
+setValuesForKeysWithDictionary:
+addSublayer:
+[KFUN][KGVN-OVL] IOSurfaceLookup in kgvn surfID=%u
+IOSurfaceLookup
+[KFUN][KGVN-OVL] remSurf=0x%llx
+setContents:
+setContentsGravity:
+[KFUN][KGVN-OVL] IOSurface linked to overlay layer
+[KFUN][KGVN-OVL] WARNING: IOSurfaceLookup returned 0 in kgvn
+[KFUN][KGVN-OVL] kgvn overlay ready (IOSurface mode)
+[KFUN][OVL-0] setupSBOverlay start
+[KFUN][OVL-1] init_remote_call done
+[KFUN][OVL-3] sb windows count=%llu
+isUserInteractionEnabled
+userInteractionEnabled
+[KFUN][OVL-4b] forced userInteractionEnabled=NO on fallback win
+[KFUN][OVL-4] anchor=0x%llx (ui=%llu)
+[KFUN][OVL-6] overlayLayer=0x%llx
+[KFUN][OVL-6b] bounds/position/zPos applied
+[KFUN][OVL-7] overlay attached
+imageWithContentsOfFile:
+[KFUN][OVL-8] SB session kept alive
+NSMethodSignature
+signatureWithObjCTypes:
+NSInvocation
+invocationWithMethodSignature:
+setTarget:
+setSelector:
+setArgument:atIndex:
+[KFUN][OVL-9] SBSAccessibilityWindowHostingController registered cid=%u level=%g hc=0x%llx
+[KFUN][OVL-9] SBSAccessibilityWindowHostingController not found
+[STREAM] setupLocalWindow: wrapping ESP in SecureESPField (streamMode=ON)
+[STREAM] setupLocalWindow: ESP layer added directly (streamMode=OFF)
+[KFUN][LW] local window=%p layer=%p contextID=%u level=%g
+FBSOrientationObserver
+v16@?0@"FBSOrientationUpdate"8
+[LW] FBS fired %ld (portrait/unknown) 
+[LW] orient %ld 
+ angle %.2f bounds=(%g
+[KFUN][LW] FBS initial=%ld
+[KFUN][LW] initial transform=%.2f
+[LW] resign-probe orient=%ld angle=%.2f
+[PiP] started
+[PiP] stopped
+[PiP] Failed: %@
+PiP Failed
+checkmark.circle.fill
+@"UIView"8@?0
+@"UILabel"16@?0@"NSString"8
+@"NSLayoutYAxisAnchor"40@?0@"UIView"8@"NSString"16i24B28@"NSLayoutYAxisAnchor"32
+@"NSLayoutYAxisAnchor"24@?0@"UIView"8@"NSLayoutYAxisAnchor"16
+@"UIButton"32@?0@"NSString"8@"NSString"16:24
+shippingbox.fill
+arrow.clockwise
+Switched to English
+HUD removed!
+<!DOCTYPE html><html><head><meta name='viewport' content='width=device-width,initial-scale=1'><style>html,body{margin:0;padding:0;background:transparent;display:flex;align-items:center;justify-content
+:center;width:100%;height:100%;}.s{position:relative;width:32px;height:32px;}.s div{position:absolute;border-radius:50%;animation:r 1.2s cubic-bezier(.5,0,.5,1) infinite;}.r1{width:32px;height:32px;bo
+rder:2px solid transparent;border-top-color:#5e8fff;animation-delay:-.45s;}.r2{width:22px;height:22px;top:5px;left:5px;border:2px solid transparent;border-top-color:#9b25e6;animation-delay:-.30s;}.r3{
+width:12px;height:12px;top:10px;left:10px;border:2px solid transparent;border-top-color:#fbc638;animation-delay:-.15s;}@keyframes r{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}</style></h
+ead><body><div class='s'><div class='r1'></div><div class='r2'></div><div class='r3'></div></div></body></html>
+kf_mmOffsetX
+kf_mmOffsetY
+kf_ipScale
+kf_ipOffsetX
+kf_ipOffsetY
+kf_showBox
+kf_showLine
+kf_showMinimap
+kf_showDist
+kf_showMonster
+kf_showHPBar
+kf_showName
+kf_showMonsterHP
+kf_eliteOnly
+kf_showInfo
+kf_streamMode
+kf_showIcon
+kf_showMonsterName
+hw.product
+v24@?0q8q16
+[2/4] Game found
+[3/4] Unity OK
+iPhone17,1
+iPhone 16 Pro
+iPhone17,2
+iPhone 16 Pro Max
+iPhone17,3
+iPhone17,4
+iPhone 16 Plus
+iPhone17,5
+iPhone 16e
+iPhone16,1
+iPhone 15 Pro
+iPhone16,2
+iPhone 15 Pro Max
+iPhone15,4
+iPhone15,5
+iPhone 15 Plus
+iPhone15,2
+iPhone 14 Pro
+iPhone15,3
+iPhone 14 Pro Max
+iPhone14,7
+iPhone14,8
+iPhone 14 Plus
+iPhone14,2
+iPhone 13 Pro
+iPhone14,3
+iPhone 13 Pro Max
+iPhone14,4
+iPhone 13 mini
+iPhone14,5
+iPhone13,2
+iPhone13,3
+iPhone 12 Pro
+iPhone13,4
+iPhone 12 Pro Max
+iPhone13,1
+iPhone 12 mini
+iPhone12,1
+iPhone12,3
+iPhone 11 Pro
+iPhone12,5
+iPhone 11 Pro Max
+iPhone11,8
+iPhone11,2
+iPhone11,6
+iPhone XS Max
+iPhone10,3
+iPhone10,6
+iPhone10,1
+iPhone10,2
+iPhone 8 Plus
+iPhone10,4
+iPhone10,5
+iPhone12,8
+iPhone SE (2nd)
+iPhone14,6
+iPhone SE (3rd)
+iPad Pro 11 (3rd)
+iPad Pro 12.9 (5th)
+iPad Pro 11 (4th)
+iPad Pro 12.9 (6th)
+iPad Pro 11 (M4)
+iPad Pro 13 (M4)
+iPad mini (A17 Pro)
+iPad Air 11 (M2)
+iPad Air 13 (M2)
+iPad Air 11 (M3)
+iPad Air 13 (M3)
+__auth_data
+__const_data
+__text_stubs
+__config_data
+v24@?0Q8^B16
+v36@?0i8Q12Q20^B28
+Fatal error pfsec_arm64_scan_register_write: startAddr > endAddr
+Warning: failed decoding ldrStrAddInst (%#x @ %#llx)
+[%s:%d] Unable to get vnode, path: %s
+[%s:%d] File size is too big to overwrite!
+overwrite_system_file
+[-] Failed mmap (from_mapped)
+[-] Failed mmap (to_mapped)
+mscorlib.dll
+UnityFramework
+Frameworks/UnityFramework.framework
+global-metadata
+Data/Managed/Metadata
+[-] setsockopt failed!!!
+[+] readFd: %d
+[+] writeFd: %d
+[-] mach_vm_map failed !!!
+[+] freeTarget: %#llx
+[+] targetObject: %#x
+[-] socket create failed!!!
+IOSurfaceAddress
+IOSurfaceAllocSize
+IOSurfaceMemoryRegion
+PurpleGfxMem
+[-] Failed to create surface!!!
+[+] physicalMappingAddress: %p
+[-] mach_make_memory_entry_64 failed!!!
+[-] mach_vm_map failed!!!
+[+] pcObject: %u
+[+] pcAddress: %#llx
+[+] mach_vm_map failed!!!
+[KRW] kaddr invalid: 0x%llx
+[!] error: (size > EARLY_KRW_LENGTH)
+[KRW] getsockopt FAILED: rwSocket=%d errno=%d (%s)
+[+] pcbStartOffset: %#llx
+[+] targetInpGencnt: %#llx
+[-] Found last PCB
+[-] Found freed PCB Page!
+[-] Found old PCB Page!!!!
+[+] inpListNextPointer: %#llx
+[+] icmp6Filter: %#llx
+[+] Corrupting icmp6filter pointer...
+[+] target corrupted: %#llx
+[-] getsockopt failed!!!
+[+] Found control_socket at idx: %u
+[-] Failed to corrupt control_socket at idx: %u
+[i] totalSearchMappingPagesNum: %#llx
+[i] searchMappingSize: %#llx
+[i] totalSearchMappingSize: %#llx
+[i] searchMappingNum: %#llx
+[+] wiredMapping: %#llx
+[-] mach_vm_allocate failed!!!
+[-] Failed to spray sockets: %u
+[i] socketPortsCount: %u
+[i] startPcbId: %llu
+[i] endPcbId: %llu
+[i] looking in search mapping: %llu
+[-] mach_port_deallocate failed!!!
+[i] pe_v2: Allocating %llu wired pages (2GB)...
+[-] pe_v2: initial mach_vm_allocate failed
+[+] pe_v2: Allocated %llu wired pages
+[-] pe_v2: mach_vm_allocate search mapping failed
+[-] pe_v2: mach_make_memory_entry_64 failed
+[i] pe_v2: offset %#llx: Found wired page %#llx
+[-] pe_v2: Found old/duplicate wired page, skipping
+[-] pe_v2: Failed to deallocate wired page
+[-] pe_v2: Failed to spray sockets: %u
+[+] pe_v2: offset %#llx: Reallocated PCB page!
+[+] pe_v2: Socket limit reached, waiting for zone trimming...
+[+] pe_v2: offset %#llx: Found PCB page!
+[+] pe_v2: Done, cleaned up %lu remaining wired pages
+[-] Couldn't find controlSocketAddr || rwSocketAddr
+[kexploit] cleanup begin
+[kexploit] cleanup done
+[+] Running on A18/M4 device
+[+] Running on non-A18/M4 device
+[+] highestSuccessIdx: %d
+[+] successReadCount: %d
+early_kread64(%#llx) -> %#llx
+[%s:%d] kwrite_zone_element: len < 0x20 not supported
+kwrite_zone_element
+/usr/standalone/firmware
+[HASH] Method1 OK: %s
+/private/preboot/Cryptexes
+[HASH] Method2 OK: %s
+/private/preboot
+[HASH] Method3 OK: %s
+[HASH] All methods failed
+hw.cpufamily
+[-] Only supported offset for iOS/iPadOS 17.0 - 26.0.x
+[GRAB_KC] bootManifestHash = %s
+[GRAB_KC] FAIL: bootManifestHash is NULL
+/private/preboot/%s%@
+/System/Library/Caches/com.apple.kernelcaches/kernelcache
+/private/preboot/Cryptexes/OS/System/Library/CoreServices/RestoreVersion.plist
+/Documents/kc
+[GRAB_KC] kc_path = %@
+[GRAB_KC] kc_copydst_path = %@
+[GRAB_KC] kc_copysrc_fd = %d (errno=%d)
+[GRAB_KC] FAIL: cannot open copysrc %@ errno=%d
+[GRAB_KC] kc_copydst_fd = %d (errno=%d)
+[GRAB_KC] FAIL: cannot open copydst errno=%d
+[GRAB_KC] kc_copysrc_vnode = 0x%llx
+[GRAB_KC] kc_copysrc_v_data = 0x%llx
+/System/Library/Caches/com.apple.kernelcaches
+[GRAB_KC] kc_folder_path = %@
+[GRAB_KC] access(kc_path) = %d (errno=%d)
+[GRAB_KC] kc_folder_vnode = 0x%llx
+[GRAB_KC] FAIL: cannot get folder vnode for %@
+kernelcache
+[GRAB_KC] kc_vnode = 0x%llx
+Failed to find kernelcache vnode by searching child vnode
+[GRAB_KC] FAIL: vnode_get_child_vnode returned -1
+[GRAB_KC] kc_v_data = 0x%llx
+[GRAB_KC] v_data swapped, starting copy...
+[GRAB_KC] copy done, total bytes read = %zd
+[GRAB_KC] v_data restored
+[%s:%d] Invalid kernelcache data :(
+grab_kernelcache
+[GRAB_KC] FAIL: invalid kernelcache (total=%zd bytes)
+[GRAB_KC] SUCCESS! kernelcache valid at %@
+[XPF] xpf_start_with_kernel_path ret=%d kc=%@ error=%s
+[XPF] kernelVersion=%s kernelBase=0x%llx kernelEntry=0x%llx isArm64e=%d isFileset=%d isSPTM=%d
+kernelSymbol.gVirtBase
+[XPF] gVirtBase sym=0x%llx slide=0x%llx (err=%s)
+[XPF] gVirtBase runtime=0x%llx
+kernelSymbol.gPhysBase
+[XPF] gPhysBase sym=0x%llx (err=%s)
+[XPF] gPhysBase runtime=0x%llx
+kernelStruct.vm_map.pmap
+[XPF] vm_map.pmap offset=0x%llx (err=%s)
+[XPF] Failed to start XPF: %s
+(no error)
+com.apple.sandbox.container
+com.apple.app-sandbox.read-write
+file-read-data
+/private/var
+file-write-data
+self_sbx_lbl->ext_set = 0x%llx
+victim_sbx_lbl->ext_set = 0x%llx
+sbx_lbl->ext_set = 0x%llx
+type_buckets[%d] = 0x%llx
+  extension_class_node @ 0x%llx
+    next           = 0x%llx
+    ext_list_head  = 0x%llx
+    class_name     = 0x%llx
+  extension @ 0x%llx
+    next         = 0x%llx
+    handle       = 0x%llx
+    refcnt       = %u
+    type         = %u
+    flags        = 0x%x
+    refgrp       = 0x%llx
+    data_ptr     = 0x%llx
+    path_len     = %llu
+    path         = "%s"
+    consumed     = %u
+    storage_cls  = 0x%x
+    st_dev       = 0x%x
+    st_ino       = 0x%llx
+    sc_prev      = 0x%llx
+    sc_next      = 0x%llx
+============
+[-] Couldn't find file (to): %s
+[-] Couldn't find file (from): %s
+[-] Unable to get vnode, path: %s
+[-] stat failed at path: %s
+[-] %s failed...
+vnode_apfs_chown
+[-] %s UID: %d
+[-] %s GID: %d
+vnode_apfs_chmod
+[-] %s mode: %o
+TGPinningDelegate
+NSURLSessionDelegate
+TrollGameKit
+UICKeyChainStore
+Deprecation
+AppDelegate
+UIApplicationDelegate
+BannerView
+HeroHelper
+KFCameraSettingsVC
+KFHUDWindow
+KFHUDAppDelegate
+KFHUDApplication
+KFHUDESPView
+KFHUDViewController
+KFHUDPluginWindow
+LogTextView
+UIDocumentPickerDelegate
+SSZipArchive
+SceneDelegate
+UIWindowSceneDelegate
+UISceneDelegate
+PHPickerViewControllerDelegate
+SecureESPField
+DisplayLayer
+InterfaceManager
+CoreRuntime
+AssetManager
+ContentLayer
+MediaStream
+ViewController
+AVPictureInPictureControllerDelegate
+T@"NSArray",R,N
+JSONObjectWithData:options:error:
+T@"NSString",C,N,V_errorMessage
+T@"AVPictureInPictureController",&,N,V_pipCtrl
+T@"UILabel",&,N,V_fovValueLabel
+T@"CADisplayLink",&,N,V_displayLink
+T@"WKWebView",&,N,V_loadingView
+T@"KFESPView",&,N,V_espView
+_backgroundView
+T@"NSArray",&,N,V_espCheckboxButtons
+T@"NSDate",&,N,V_activatedAt
+T@"NSLayoutConstraint",&,N,V_infoPanelSettingsCollapseH
+_isSystemWindow
+T@"NSString",&,N,V_authenticationPrompt
+_languageButton
+T@"NSString",C,N,V_authTokenData
+T@"NSString",C,N,V_keyCode
+_syncAllToggles
+T@"NSString",C,N,V_productName
+T@"NSString",C,N,V_title
+_uuidForSession
+T@"NSString",R,N
+T@"NSString",R,N,V_service
+addLineToPoint:
+T@"UIButton",&,N,V_closeBtn
+animateWithDuration:animations:
+T@"UIButton",&,N,V_homeTabButton
+arrayWithArray:
+T@"UIButton",&,N,V_settingsTabButton
+buttonWithType:
+T@"UILabel",&,N,V_hintLabel
+containsObject:
+T@"UILabel",&,N,V_infoPanelOffsetYLabel
+currentCalendar
+T@"UILabel",&,N,V_keyExpiryLabel
+dataWithLength:
+T@"UILabel",&,N,V_minimapOffsetYLabel
+dateWithTimeInterval:sinceDate:
+T@"UILabel",&,N,V_technicalLogsLabel
+T@"UIScrollView",&,N,V_settingsScrollView
+enableMetalHUD:
+T@"UISlider",&,N,V_fovSlider
+T@"UISlider",&,N,V_infoPanelOffsetYSlider
+initWithString:
+T@"UISlider",&,N,V_minimapOffsetXSlider
+itemClassObject
+T@"UISlider",&,N,V_zoomSlider
+loadSpinnerHTML
+T@"UITextView",&,N,V_logView
+T@"UIView",&,N,V_homePageView
+T@"UIView",&,N,V_settingsPageView
+T@"UIWindow",&,N,V_window
+protectionSpace
+T@"VideoSanh",&,N,V_videoSanh
+removeAllItemsForService:error:
+TB,N,V_authTokenVerified
+removeItemForKey:service:error:
+TB,N,V_useAuthenticationUI
+resetsRemaining
+setActivatedAt:
+TQ,N,V_tgSeal
+setBool:forKey:
+TQ,R,N,V_authenticationPolicy
+setBorderWidth:
+Tq,N,V_maxResets
+setData:forKey:
+Tq,N,V_resetsRemaining
+setDisplayLink:
+Tq,R,N,V_authenticationType
+setNeedsDisplay
+Tq,R,N,V_protocolType
+setPlaceholder:
+URLSession:didReceiveChallenge:completionHandler:
+setShadowColor:
+URLWithString:
+setString:forKey:label:comment:
+setStrokeColor:
+__completeAndRunAsPlugin
+setWindowLevel:
+_accessGroup
+stringByAppendingPathComponent:
+_accessibilityInit
+_audioWatchdog
+zipArchiveWillUnzipFileAtIndex:totalFiles:archivePath:fileInfo:
+.cxx_destruct
+T@"NSString",C,N,V_authTokenSig
+T@"UILabel",&,N,V_awaitingLabel
+T@"AVPictureInPictureVideoCallViewController",&,N,V_pipContentVC
+T@"UIView",&,N,V_backgroundView
+T@"CADisplayLink",&,N,V_espDL
+TB,N,V_needUdid
+T@"ModFile",&,N,V_modFile
+_closeAppTapped
+T@"NSArray",&,N,V_espPillButtons
+_espPillButtons
+T@"NSDate",&,N,V_expiresAt
+_ignoresHitTest
+T@"NSLayoutConstraint",&,N,V_minimapSettingsCollapseH
+_keyExpiryLabel
+T@"NSString",?,R,C
+_runBuiltinFlow
+T@"NSString",C,N,V_enrollUrl
+T@"NSString",C,N,V_productBundle
+_synchronizable
+T@"NSString",C,N,V_subtitle
+_toggleLanguage
+T@"NSString",R,C
+T@"NSString",R,N,V_accessGroup
+_zoomValueLabel
+T@"NSURL",R,N,V_server
+T@"UIButton",&,N,V_docsTabButton
+applicationWillEnterForeground:
+T@"UIButton",&,N,V_languageButton
+base64EncodedStringWithOptions:
+T@"UIImageView",&,N,V_successIconView
+connectedScenes
+T@"UILabel",&,N,V_infoPanelOffsetXLabel
+containsString:
+T@"UILabel",&,N,V_infoPanelScaleLabel
+dataForKey:service:accessGroup:
+T@"UILabel",&,N,V_minimapOffsetXLabel
+dateFromString:
+T@"UILabel",&,N,V_statusLabel
+T@"UILabel",&,N,V_zoomValueLabel
+displayLinkWithTarget:selector:
+T@"UISegmentedControl",&,N,V_tabControl
+espDisplayTick:
+T@"UISlider",&,N,V_infoPanelOffsetXSlider
+initWithEffect:
+T@"UISlider",&,N,V_infoPanelScaleSlider
+T@"UISlider",&,N,V_minimapOffsetYSlider
+T@"UITextView",&,N,V_logArea
+T@"UIView",&,N,V_docsPageView
+lowercaseString
+T@"UIView",&,N,V_logContainer
+numberWithBool:
+T@"UIView",W,N,V_secureContentView
+prettify:items:
+T@"UIWindow",?,&,N
+T@?,C,N,V_completion
+removeAllPoints
+TB,N,V_synchronizable
+removeObserver:
+TB,N,V_valid
+TB,V_espDataReady
+setAnchorPoint:
+setBorderColor:
+Tq,N,V_accessibility
+setContentMode:
+Tq,N,V_resetCount
+Tq,N,V_status
+setLoadingView:
+Tq,R,N,V_itemClass
+setOnTintColor:
+URLSession:didBecomeInvalidWithError:
+setProductName:
+URLSessionDidFinishEventsForBackgroundURLSession:
+setStatusLabel:
+UTF8String
+setString:forKey:service:error:
+UUIDString
+_accentDot
+spawnHUDProcess
+_accessibility
+successIconView
+_activatedAt
+_authTokenData
+_authTokenSig
+_authTokenVerified
+_authenticationPolicy
+_authenticationPrompt
+_authenticationType
+_awaitingLabel
+_completion
+_contextId
+_dateWithMSDOSFormat:
+_deviceInfoString
+_displayLink
+_docsPageView
+_docsTabButton
+_enforceSignedResult:
+_enrollUrl
+_errorMessage
+_espCheckboxButtons
+_espCheckboxTapped:
+_espDataReady
+_espToggleChanged:
+_expiresAt
+_finishViewDidLoad
+_fovSlider
+_fovSliderChanged:
+_fovValLbl
+_fovValueLabel
+_getOrCreateValueForKey:defaultValue:userDefaults:keychain:service:accessGroup:synchronizable:
+_getValueForKey:userDefaults:keychain:service:accessGroup:
+_handlePickedURLs:
+_heroCount
+_hintLabel
+_homePageView
+_homeTabButton
+_infoPanelOffsetXLabel
+_infoPanelOffsetXSlider
+_infoPanelOffsetYLabel
+_infoPanelOffsetYSlider
+_infoPanelScaleLabel
+_infoPanelScaleSlider
+_infoPanelSettingsCollapseH
+_infoPanelSliderChanged:
+_isWindowServerHostingManaged
+_itemClass
+_loadingView
+_logContainer
+_mainQueue:result:
+_maxResets
+_minimapOffsetXLabel
+_minimapOffsetXSlider
+_minimapOffsetYLabel
+_minimapOffsetYSlider
+_minimapSettingsCollapseH
+_minimapSliderChanged:
+_modLog:success:
+_openTelegram
+_performDeleteMod
+_pinMatchesTrust:
+_pipContentVC
+_presenter
+_presetBtns
+_processVideoFromURL:
+_productBundle
+_productName
+_promptLoop:lastHint:keyPrompt:onSuccess:onFailed:
+_protocolType
+_refreshTapped
+_requestUdidToken:completion:
+_requestWithPath:body:
+_resetCount
+_resetsRemaining
+_resultFromJSON:httpStatus:
+_rightLine
+_scheduleValidationFlow
+_secureContentView
+_setValue:forKey:userDefaults:keychain:service:accessGroup:synchronizable:
+_settingsPageView
+_settingsScrollView
+_settingsTabButton
+_shouldCreateContextAsSecure
+_showSettings
+_statusLabel
+_storeAuthToken:sig:
+_subtitleLabel
+_successIconView
+_syncTogglesInView:
+_tabControl
+_tabTapped:
+_tapDeleteMod
+_tapModFile
+_tapModSanh
+_technicalLogsLabel
+_temporaryPathForDiscardableFile
+_titleLabel
+_topViewController
+_updatePresetButtons:
+_useAuthenticationUI
+_uuidForDevice
+_uuidForInstallation
+_uuidForKey
+_uuidForVendor
+_uuidsOfUserDevices
+_uuidsOfUserDevices_iCloudAvailable
+_videoSanh
+_zoomSlider
+_zoomSliderChanged:
+accessibilityObject
+actionWithTitle:style:handler:
+activateConstraints:
+activeInterfaceOrientation
+addAction:
+addGestureRecognizer:
+addObject:
+addObserver:selector:name:object:
+addObserverForName:object:queue:usingBlock:
+addSubview:
+addTarget:action:forControlEvents:
+addTextFieldWithConfigurationHandler:
+addToRunLoop:forMode:
+alertControllerWithTitle:message:preferredStyle:
+allItemsWithItemClass:
+allKeysWithItemClass:
+animateWithDuration:animations:completion:
+animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:
+appendBytes:length:
+appendData:
+appendFormat:
+appendLog:
+appendString:
+application:configurationForConnectingSceneSession:options:
+application:continueUserActivity:restorationHandler:
+application:didChangeStatusBarFrame:
+application:didChangeStatusBarOrientation:
+application:didDecodeRestorableStateWithCoder:
+application:didDiscardSceneSessions:
+application:didFailToContinueUserActivityWithType:error:
+application:didFailToRegisterForRemoteNotificationsWithError:
+application:didFinishLaunchingWithOptions:
+application:didReceiveLocalNotification:
+application:didReceiveRemoteNotification:
+application:didReceiveRemoteNotification:fetchCompletionHandler:
+application:didRegisterForRemoteNotificationsWithDeviceToken:
+application:didRegisterUserNotificationSettings:
+application:didUpdateUserActivity:
+application:handleActionWithIdentifier:forLocalNotification:completionHandler:
+application:handleActionWithIdentifier:forLocalNotification:withResponseInfo:completionHandler:
+application:handleActionWithIdentifier:forRemoteNotification:completionHandler:
+application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:
+application:handleEventsForBackgroundURLSession:completionHandler:
+application:handleIntent:completionHandler:
+application:handleOpenURL:
+application:handleWatchKitExtensionRequest:reply:
+application:handlerForIntent:
+application:openURL:options:
+application:openURL:sourceApplication:annotation:
+application:performActionForShortcutItem:completionHandler:
+application:performFetchWithCompletionHandler:
+application:shouldAllowExtensionPointIdentifier:
+application:shouldRestoreApplicationState:
+application:shouldRestoreSecureApplicationState:
+application:shouldSaveApplicationState:
+application:shouldSaveSecureApplicationState:
+application:supportedInterfaceOrientationsForWindow:
+application:userDidAcceptCloudKitShareWithMetadata:
+application:viewControllerWithRestorationIdentifierPath:coder:
+application:willChangeStatusBarFrame:
+application:willChangeStatusBarOrientation:duration:
+application:willContinueUserActivityWithType:
+application:willEncodeRestorableStateWithCoder:
+application:willFinishLaunchingWithOptions:
+applicationDidBecomeActive:
+applicationDidEnterBackground:
+applicationDidFinishLaunching:
+applicationDidReceiveMemoryWarning:
+applicationProtectedDataDidBecomeAvailable:
+applicationProtectedDataWillBecomeUnavailable:
+applicationShouldAutomaticallyLocalizeKeyCommands:
+applicationShouldRequestHealthAuthorization:
+applicationSignificantTimeChange:
+applicationWillResignActive:
+applicationWillTerminate:
+applyMetalHUD:
+applyStreamMode:
+argumentError:
+arrayWithObjects:count:
+attributesOfItemAtPath:error:
+attributesWithKey:value:error:
+authTokenData
+authTokenSig
+authTokenVerified
+authenticationMethod
+authenticationPolicy
+authenticationPrompt
+authenticationTypeObject
+autorelease
+awaitingLabel
+backgroundView
+beginBackgroundTaskWithName:expirationHandler:
+bezierPath
+blackColor
+boldSystemFontOfSize:
+boolForKey:
+bottomAnchor
+bundleIdentifier
+cStringUsingEncoding:
+cachedValidationResult
+canBecomeFirstResponder
+canBecomeKeyWindow
+canPerformAction:withSender:
+centerXAnchor
+centerYAnchor
+characterSetWithCharactersInString:
+checkDevice:completion:
+clearColor
+closeAppTapped
+colorWithAlphaComponent:
+colorWithRed:green:blue:alpha:
+colorWithWhite:alpha:
+commonInit
+compare:options:
+completion
+components:fromDate:
+componentsJoinedByString:
+componentsSeparatedByCharactersInSet:
+componentsSeparatedByString:
+configurationWithPointSize:weight:
+configureWithServerURL:secretKey:
+conformsToProtocol:
+constraintEqualToAnchor:
+constraintEqualToAnchor:constant:
+constraintEqualToConstant:
+constraintLessThanOrEqualToAnchor:constant:
+contentsOfDirectoryAtPath:error:
+conversionError:
+convertPoint:fromView:
+copyItemAtPath:toPath:error:
+copyItemAtURL:toURL:error:
+countByEnumeratingWithState:objects:count:
+createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+createZipFileAtPath:withContentsOfDirectory:
+createZipFileAtPath:withContentsOfDirectory:keepParentDirectory:
+createZipFileAtPath:withContentsOfDirectory:keepParentDirectory:withPassword:
+createZipFileAtPath:withContentsOfDirectory:withPassword:
+createZipFileAtPath:withFilesAtPaths:
+createZipFileAtPath:withFilesAtPaths:withPassword:
+credentialForTrust:
+currentDevice
+currentHandler
+currentRunLoop
+dataForKey:
+dataForKey:error:
+dataForKey:service:
+dataForKey:service:accessGroup:error:
+dataForKey:service:error:
+dataTaskWithRequest:completionHandler:
+dataUsingEncoding:
+dataWithBytes:length:
+dataWithCapacity:
+dataWithContentsOfFile:
+dataWithContentsOfURL:
+dataWithData:
+dataWithJSONObject:options:error:
+dataWithPropertyList:format:options:error:
+dateFromComponents:
+dateWithTimeIntervalSince1970:
+debugDescription
+defaultCenter
+defaultFormat
+defaultManager
+defaultService
+defaultStore
+description
+deviceIdentifier
+dictionaryRepresentation
+dictionaryWithCapacity:
+dictionaryWithContentsOfFile:
+dictionaryWithObject:forKey:
+dictionaryWithObjects:forKeys:count:
+dismissViewControllerAnimated:completion:
+displayLink
+docsPageView
+docsTabButton
+documentPicker:didPickDocumentAtURL:
+documentPicker:didPickDocumentsAtURLs:
+documentPickerWasCancelled:
+doubleValue
+drawAtPoint:withAttributes:
+drawOverlayText:
+effectWithStyle:
+endBackgroundTask:
+enumerateKeysAndObjectsUsingBlock:
+enumeratorAtPath:
+ephemeralSessionConfiguration
+errorMessage
+errorWithDomain:code:userInfo:
+espCheckboxButtons
+espDataReady
+espPillButtons
+executablePath
+expiryDescription
+fileExistsAtPath:
+fileExistsAtPath:isDirectory:
+fileHandleForReadingAtPath:
+fileSystemRepresentation
+fileURLWithPath:
+firstObject
+floatForKey:
+fovChanged:
+fovValueLabel
+generatePassword
+greenColor
+handleFailureInMethod:object:file:lineNumber:description:
+hasItemConformingToTypeIdentifier:
+hasPrefix:
+hasPublicKey
+hasSuffix:
+heightAnchor
+hitTest:withEvent:
+homePageView
+homeTabButton
+iconForHeroID:
+identifierForVendor
+imageNamed:
+imageWithActions:
+imageWithData:
+impactOccurred
+indexOfObject:
+infoPanelOffsetXLabel
+infoPanelOffsetXSlider
+infoPanelOffsetYLabel
+infoPanelOffsetYSlider
+infoPanelScaleLabel
+infoPanelScaleSlider
+infoPanelSettingsCollapseH
+initWithActiveVideoCallSourceView:contentViewController:
+initWithArray:
+initWithBase64EncodedString:options:
+initWithCalendarIdentifier:
+initWithCapacity:
+initWithCoder:
+initWithConfiguration:
+initWithContentSource:
+initWithData:encoding:
+initWithData:error:
+initWithDictionary:
+initWithDocumentTypes:inMode:
+initWithFormat:arguments:
+initWithFrame:
+initWithFrame:configuration:
+initWithImage:
+initWithName:sessionRole:
+initWithPath:
+initWithPresenter:
+initWithServer:protocolType:
+initWithServer:protocolType:authenticationType:
+initWithService:
+initWithService:accessGroup:
+initWithSize:format:
+initWithStyle:
+initWithTarget:action:
+initWithURL:
+initWithWindowScene:
+initialize
+insertSublayer:atIndex:
+integerForKey:
+integerValue
+intrinsicContentSize
+invalidate
+isEqualToString:
+isFilePasswordProtectedAtPath:
+isKeyWindow
+isKindOfClass:
+isMainThread
+isMemberOfClass:
+isMetalHUDEnabled
+isPictureInPictureActive
+itemProvider
+keepAliveAudio
+keyChainStore
+keyChainStoreWithServer:protocolType:
+keyChainStoreWithServer:protocolType:authenticationType:
+keyChainStoreWithService:
+keyChainStoreWithService:accessGroup:
+keyExpiryLabel
+languageButton
+lastObject
+lastPathComponent
+layoutSubviews
+leadingAnchor
+loadFileRepresentationForTypeIdentifier:completionHandler:
+loadHTMLString:baseURL:
+loadingView
+localizedDescription
+localizedStringForKey:value:table:
+logContainer
+mainBundle
+mainRunLoop
+mainScreen
+makeKeyAndVisible
+minimapOffsetXLabel
+minimapOffsetXSlider
+minimapOffsetYLabel
+minimapOffsetYSlider
+minimapSettingsCollapseH
+monospacedSystemFontOfSize:weight:
+moveToPoint:
+mutableBytes
+mutableCopy
+nameForHeroID:
+nextObject
+notificationOccurred:
+numberWithInt:
+numberWithInteger:
+numberWithUnsignedInt:
+numberWithUnsignedLong:
+numberWithUnsignedLongLong:
+objectAtIndexedSubscript:
+objectForKey:
+objectForKeyedSubscript:
+openURL:options:completionHandler:
+orangeColor
+orientation
+pathExtension
+pathForResource:ofType:inDirectory:
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+pickVideoWithCompletion:
+pickZipWithCompletion:
+picker:didFinishPicking:
+pictureInPictureController:failedToStartPictureInPictureWithError:
+pictureInPictureController:restoreUserInterfaceForPictureInPictureStopWithCompletionHandler:
+pictureInPictureControllerDidStartPictureInPicture:
+pictureInPictureControllerDidStopPictureInPicture:
+pictureInPictureControllerWillStartPictureInPicture:
+pictureInPictureControllerWillStopPictureInPicture:
+pipContentVC
+popoverPresentationController
+postNotificationName:object:userInfo:
+preferredStatusBarUpdateAnimation
+preferredWindowingControlStyleForScene:
+prefersHomeIndicatorAutoHidden
+prefersStatusBarHidden
+presentViewController:animated:completion:
+presentedViewController
+presetTapped:
+productBundle
+productName
+propertyListWithData:options:format:error:
+protocolType
+protocolTypeObject
+raise:format:
+rangeOfCharacterFromSet:
+rangeOfFirstMatchInString:options:range:
+rangeOfString:
+rangeOfString:options:
+readDataOfLength:
+refreshESPView
+regularExpressionWithPattern:options:error:
+removeAllItems
+removeAllItemsForService:
+removeAllItemsForService:accessGroup:
+removeAllItemsForService:accessGroup:error:
+removeAllItemsWithError:
+removeFromSuperlayer
+removeFromSuperview
+removeItemAtPath:error:
+removeItemAtURL:error:
+removeItemForKey:
+removeItemForKey:error:
+removeItemForKey:service:
+removeItemForKey:service:accessGroup:
+removeItemForKey:service:accessGroup:error:
+removeLastObject
+removeObject:
+removeObjectAtIndex:
+removeObjectForKey:
+removeSharedPasswordForAccount:completion:
+renderESPFrame
+replaceOccurrencesOfString:withString:options:range:
+requestSharedWebCredentialForDomain:account:completion:
+requestSharedWebCredentialWithCompletion:
+requestWithURL:cachePolicy:timeoutInterval:
+resetKey:completion:
+restoreVideoWithCompletion:
+retainCount
+reverseObjectEnumerator
+rootViewController
+safeAreaLayoutGuide
+scene:continueUserActivity:
+scene:didFailToContinueUserActivityWithType:error:
+scene:didUpdateUserActivity:
+scene:openURLContexts:
+scene:restoreInteractionStateWithUserActivity:
+scene:willConnectToSession:options:
+scene:willContinueUserActivityWithType:
+sceneDidBecomeActive:
+sceneDidDisconnect:
+sceneDidEnterBackground:
+sceneWillEnterForeground:
+sceneWillResignActive:
+scrollRangeToVisible:
+scrollView
+secureContentView
+securityError:
+serverTrust
+sessionWithConfiguration:delegate:delegateQueue:
+setAccessibility:
+setAccessibility:authenticationPolicy:
+setActive:
+setActive:error:
+setAlignmentMode:
+setAllowsInlineMediaPlayback:
+setAllowsMultipleSelection:
+setAttributes:ofItemAtPath:error:
+setAuthTokenData:
+setAuthTokenSig:
+setAuthTokenVerified:
+setAuthenticationPrompt:
+setAutocapitalizationType:
+setAutocorrectionType:
+setAutoresizingMask:
+setAwaitingLabel:
+setBackgroundColor:
+setBackgroundView:
+setBounces:
+setBounds:
+setCategory:withOptions:error:
+setClipsToBounds:
+setCloseBtn:
+setCompletion:
+setContentsScale:
+setCornerRadius:
+setData:forKey:error:
+setData:forKey:genericAttribute:
+setData:forKey:genericAttribute:error:
+setData:forKey:genericAttribute:label:comment:error:
+setData:forKey:label:comment:
+setData:forKey:label:comment:error:
+setData:forKey:service:
+setData:forKey:service:accessGroup:
+setData:forKey:service:accessGroup:error:
+setData:forKey:service:accessGroup:genericAttribute:
+setData:forKey:service:accessGroup:genericAttribute:error:
+setData:forKey:service:error:
+setData:forKey:service:genericAttribute:
+setData:forKey:service:genericAttribute:error:
+setDefaultService:
+setDelegate:
+setDisableActions:
+setDocsPageView:
+setDocsTabButton:
+setDrawsAsynchronously:
+setEditable:
+setEnrollUrl:
+setErrorMessage:
+setEspCheckboxButtons:
+setEspDataReady:
+setEspPillButtons:
+setEspView:
+setExpiresAt:
+setFillColor:
+setFilter:
+setFloat:forKey:
+setFontSize:
+setForegroundColor:
+setFormatOptions:
+setFovSlider:
+setFovValueLabel:
+setHTTPBody:
+setHTTPMethod:
+setHandler:
+setHidden:
+setHintLabel:
+setHomePageView:
+setHomeTabButton:
+setImage:forState:
+setInfoPanelOffsetXLabel:
+setInfoPanelOffsetXSlider:
+setInfoPanelOffsetYLabel:
+setInfoPanelOffsetYSlider:
+setInfoPanelScaleLabel:
+setInfoPanelScaleSlider:
+setInfoPanelSettingsCollapseH:
+setInteger:forKey:
+setKeyCode:
+setKeyExpiryLabel:
+setLanguageButton:
+setLength:
+setLineCap:
+setLineWidth:
+setLogArea:
+setLogContainer:
+setLogView:
+setMasksToBounds:
+setMaxResets:
+setMaximumTrackTintColor:
+setMaximumValue:
+setMediaTypesRequiringUserActionForPlayback:
+setMinimapOffsetXLabel:
+setMinimapOffsetXSlider:
+setMinimapOffsetYLabel:
+setMinimapOffsetYSlider:
+setMinimapSettingsCollapseH:
+setMinimumTrackTintColor:
+setMinimumValue:
+setMinute:
+setModFile:
+setNeedUdid:
+setNumberOfLines:
+setNumberOfLoops:
+setObject:forKeyedSubscript:
+setOpacity:
+setOpaque:
+setPaused:
+setPipContentVC:
+setPipCtrl:
+setPosition:
+setPreferredContentSize:
+setPreferredFrameRateRange:
+setPreferredFramesPerSecond:
+setPriority:
+setProductBundle:
+setPublicKeyPEM:
+setRequestCachePolicy:
+setResetCount:
+setResetsRemaining:
+setRootViewController:
+setScrollEnabled:
+setSecond:
+setSecureContentView:
+setSecureTextEntry:
+setSelectionLimit:
+setSettingsPageView:
+setSettingsScrollView:
+setSettingsTabButton:
+setShadowOffset:
+setShadowOpacity:
+setShadowRadius:
+setSharedPassword:forAccount:completion:
+setShowsVerticalScrollIndicator:
+setSourceRect:
+setSourceView:
+setStatus:
+setString:
+setString:forKey:
+setString:forKey:error:
+setString:forKey:genericAttribute:
+setString:forKey:genericAttribute:error:
+setString:forKey:genericAttribute:label:comment:error:
+setString:forKey:label:comment:error:
+setString:forKey:service:
+setString:forKey:service:accessGroup:
+setString:forKey:service:accessGroup:error:
+setString:forKey:service:accessGroup:genericAttribute:
+setString:forKey:service:accessGroup:genericAttribute:error:
+setString:forKey:service:genericAttribute:
+setString:forKey:service:genericAttribute:error:
+setSubtitle:
+setSuccessIconView:
+setSynchronizable:
+setTabControl:
+setTechnicalLogsLabel:
+setTextAlignment:
+setTextColor:
+setTgSeal:
+setThumbTintColor:
+setTintColor:
+setTitle:forState:
+setTitleColor:forState:
+setTransform:
+setTranslatesAutoresizingMaskIntoConstraints:
+setUseAuthenticationUI:
+setUserInteractionEnabled:
+setValue:animated:
+setValue:forHTTPHeaderField:
+setVideoSanh:
+setVolume:
+setWindow:
+setZPosition:
+setZoomSlider:
+setZoomValueLabel:
+settingsPageView
+settingsScrollView
+settingsTabButton
+setupESPiPIfNeeded
+setupKgvnOverlay
+setupLocalWindow
+sharedPasswordForAccount:completion:
+sharedPasswordWithCompletion:
+shortValue
+shouldAutorotate
+sizeWithAttributes:
+sleepForTimeInterval:
+spawnHUDViaLaunchd:parentPid:
+standardUserDefaults
+startAccessingSecurityScopedResource
+startHackLoop
+startPictureInPicture
+startValidationFlowWithKeyPrompt:onSuccess:onFailed:
+startWithSecret:
+stateRestorationActivityForScene:
+statusLabel
+stopAccessingSecurityScopedResource
+stopPictureInPicture
+stringByAppendingFormat:
+stringByAppendingString:
+stringByDeletingLastPathComponent
+stringByReplacingOccurrencesOfString:withString:
+stringByTrimmingCharactersInSet:
+stringForKey:
+stringForKey:error:
+stringForKey:service:
+stringForKey:service:accessGroup:
+stringForKey:service:accessGroup:error:
+stringForKey:service:error:
+stringWithCString:encoding:
+stringWithCapacity:
+stringWithFormat:
+stringWithString:
+stringWithUTF8String:
+subarrayWithRange:
+subdataWithRange:
+subpathsOfDirectoryAtPath:error:
+substringToIndex:
+substringWithRange:
+superclass
+supportedInterfaceOrientations
+synchronize
+synchronizeWithError:
+systemFontOfSize:
+systemFontOfSize:weight:
+systemGreenColor
+systemImageNamed:withConfiguration:
+systemOrangeColor
+systemRedColor
+systemVersion
+systemYellowColor
+tabControl
+technicalLogsLabel
+textFields
+tgArmIntegrity
+tgGuardCheck:value:
+tgProtectFunction:length:
+timeIntervalSince1970
+timeIntervalSinceNow
+titleLabel
+toggleESPiP:
+trailingAnchor
+unexpectedError:
+unsignedIntValue
+unsignedIntegerValue
+unsignedLongLongValue
+unsignedLongValue
+unzipFileAtPath:toDestination:
+unzipFileAtPath:toDestination:delegate:
+unzipFileAtPath:toDestination:overwrite:password:error:
+unzipFileAtPath:toDestination:overwrite:password:error:delegate:
+unzipFileAtPath:toDestination:overwrite:password:progressHandler:completionHandler:
+unzipFileAtPath:toDestination:preserveAttributes:overwrite:password:error:delegate:
+unzipFileAtPath:toDestination:preserveAttributes:overwrite:password:error:delegate:progressHandler:completionHandler:
+unzipFileAtPath:toDestination:progressHandler:completionHandler:
+updateESPOverlay
+updateESPOverlayFallback
+useAuthenticationUI
+uuidForDevice
+uuidForDeviceMigratingValue:commitMigration:
+uuidForDeviceMigratingValueForKey:commitMigration:
+uuidForDeviceMigratingValueForKey:service:accessGroup:commitMigration:
+uuidForDeviceMigratingValueForKey:service:commitMigration:
+uuidForDevice_updateWithValue:
+uuidForInstallation
+uuidForKey:
+uuidForSession
+uuidForVendor
+uuidValueIsValid:
+uuidsOfUserDevicesExcludingCurrentDevice
+uuidsOfUserDevices_iCloudChange:
+uuidsOfUserDevices_iCloudInit
+uuidsOfUserDevices_iCloudSync
+uuidsOfUserDevices_updateWithValue:
+validateKey:completion:
+verifyTokenData:signature:
+videosFilter
+viewDidLoad
+viewWithTag:
+whiteColor
+whitespaceAndNewlineCharacterSet
+widthAnchor
+windowLevel
+windowScene:didUpdateCoordinateSpace:interfaceOrientation:traitCollection:
+windowScene:didUpdateEffectiveGeometry:
+windowScene:performActionForShortcutItem:completionHandler:
+windowScene:userDidAcceptCloudKitShareWithMetadata:
+writeData:filename:withPassword:
+writeESPSharedData
+writeFile:withPassword:
+writeFileAtPath:withFileName:withPassword:
+writeFolderAtPath:withFolderName:withPassword:
+writeToFile:atomically:
+writeToFile:atomically:encoding:error:
+yellowColor
+zipArchiveDidUnzipArchiveAtPath:zipInfo:unzippedPath:
+zipArchiveDidUnzipFileAtIndex:totalFiles:archivePath:fileInfo:
+zipArchiveDidUnzipFileAtIndex:totalFiles:archivePath:unzippedFilePath:
+zipArchiveProgressEvent:total:
+zipArchiveShouldUnzipFileAtIndex:totalFiles:archivePath:fileInfo:
+zipArchiveWillUnzipArchiveAtPath:zipInfo:
+zipInfo:setDate:
+zoomSlider
+zoomValueLabel
+v20@0:8B16
+v24@0:8q16
+v24@0:8@16
+v24@0:8Q16
+@"NSString"
+B24@0:8@16
+@24@0:8:16
+@32@0:8:16@24
+@40@0:8:16@24@32
+B24@0:8#16
+B24@0:8:16
+^{_NSZone=}16@0:8
+B24@0:8@"Protocol"16
+@"NSString"16@0:8
+v32@0:8@16@24
+v40@0:8@16@24@?32
+v32@0:8@"NSURLSession"16@"NSError"24
+v40@0:8@"NSURLSession"16@"NSURLAuthenticationChallenge"24@?<v@?q@"NSURLCredential">32
+v24@0:8@"NSURLSession"16
+B24@0:8^{__SecTrust=}16
+@32@0:8@16@24
+@32@0:8@16q24
+v32@0:8@?16@24
+v32@0:8r^v16Q24
+Q24@0:8Q16
+B32@0:8Q16Q24
+B32@0:8@16@24
+v32@0:8@16@?24
+v40@0:8@?16@?24@?32
+v56@0:8q16@24@?32@?40@?48
+@24@0:8@16
+@28@0:8@16B24
+@36@0:8@16@24B32
+@44@0:8@16@24@32B40
+@60@0:8@16@24B32B36@40@48B56
+@48@0:8@16B24B28@32@40
+v60@0:8@16@24B32B36@40@48B56
+@"NSMutableDictionary"
+@40@0:8@16q24q32
+@32@0:8@16^@24
+@40@0:8@16@24^@32
+@40@0:8@16@24@32
+@48@0:8@16@24@32^@40
+B40@0:8@16@24^@32
+B40@0:8@16@24@32
+B48@0:8@16@24@32^@40
+B48@0:8@16@24@32@40
+B56@0:8@16@24@32@40^@48
+B56@0:8@16@24@32@40@48
+B64@0:8@16@24@32@40@48^@56
+B32@0:8@16^@24
+B24@0:8^@16
+@24@0:8q16
+@32@0:8^v16@24
+v24@0:8@?16
+@20@0:8i16
+v32@0:8q16Q24
+v40@0:8@16q24d32
+v32@0:8@16q24
+v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24
+v48@0:8@16@24@32@?40
+v56@0:8@16@24@32@40@?48
+Q32@0:8@16@24
+B40@0:8@16@24@?32
+v40@0:8@16@24@32
+v24@0:8@"UIApplication"16
+B32@0:8@"UIApplication"16@"NSDictionary"24
+B32@0:8@"UIApplication"16@"NSURL"24
+B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40
+B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32
+v40@0:8@"UIApplication"16q24d32
+v32@0:8@"UIApplication"16q24
+v56@0:8@"UIApplication"16{CGRect={CGPoint=dd}{CGSize=dd}}24
+v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24
+v32@0:8@"UIApplication"16@"NSData"24
+v32@0:8@"UIApplication"16@"NSError"24
+v32@0:8@"UIApplication"16@"NSDictionary"24
+v32@0:8@"UIApplication"16@"UILocalNotification"24
+v48@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@?<v@?>40
+v56@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@"NSDictionary"40@?<v@?>48
+v48@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@?<v@?>40
+v56@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@"NSDictionary"40@?<v@?>48
+v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32
+v32@0:8@"UIApplication"16@?<v@?Q>24
+v40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32
+v40@0:8@"UIApplication"16@"NSString"24@?<v@?>32
+v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?@"NSDictionary">32
+@32@0:8@"UIApplication"16@"INIntent"24
+v40@0:8@"UIApplication"16@"INIntent"24@?<v@?@"INIntentResponse">32
+Q32@0:8@"UIApplication"16@"UIWindow"24
+B32@0:8@"UIApplication"16@"NSString"24
+@"UIViewController"40@0:8@"UIApplication"16@"NSArray"24@"NSCoder"32
+B32@0:8@"UIApplication"16@"NSCoder"24
+v32@0:8@"UIApplication"16@"NSCoder"24
+B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32
+v40@0:8@"UIApplication"16@"NSString"24@"NSError"32
+v32@0:8@"UIApplication"16@"NSUserActivity"24
+v32@0:8@"UIApplication"16@"CKShareMetadata"24
+@"UISceneConfiguration"40@0:8@"UIApplication"16@"UISceneSession"24@"UISceneConnectionOptions"32
+v32@0:8@"UIApplication"16@"NSSet"24
+B24@0:8@"UIApplication"16
+@"UIWindow"16@0:8
+v24@0:8@"UIWindow"16
+@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+@"UILabel"
+@"CAShapeLayer"
+v20@0:8i16
+@"UISlider"
+@"UISegmentedControl"
+@"NSArray"
+v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+@40@0:8{CGPoint=dd}16@32
+@"SBSAccessibilityWindowHostingController"
+@"UIWindow"
+[32{?="x"f"y"f"z"f"hx"f"hy"f"hz"f"hp"f"hpMax"f"level"i"camp"i"name"[32c]}]
+@"KFHUDESPView"
+@"CADisplayLink"
+v32@0:8@"UIDocumentPickerViewController"16@"NSArray"24
+v24@0:8@"UIDocumentPickerViewController"16
+v32@0:8@"UIDocumentPickerViewController"16@"NSURL"24
+@"UIViewController"
+B52@0:8@16@24B32@36^@44
+B60@0:8@16@24B32@36^@44@52
+B60@0:8@16@24B32@36@?44@?52
+B48@0:8@16@24@?32@?40
+B64@0:8@16@24B32B36@40^@48@56
+B80@0:8@16@24B32B36@40^@48@56@?64@?72
+B36@0:8@16@24B32
+B44@0:8@16@24B32@36
+@20@0:8I16
+v32@0:8^{?={tm_zip_s=IIIIII}QQQ}16@24
+v40@0:8@"UIScene"16@"UISceneSession"24@"UISceneConnectionOptions"32
+v24@0:8@"UIScene"16
+v32@0:8@"UIScene"16@"NSSet"24
+@"NSUserActivity"24@0:8@"UIScene"16
+v32@0:8@"UIScene"16@"NSUserActivity"24
+v32@0:8@"UIScene"16@"NSString"24
+v40@0:8@"UIScene"16@"NSString"24@"NSError"32
+v48@0:8@16@24q32@40
+v48@0:8@"UIWindowScene"16@"<UICoordinateSpace>"24q32@"UITraitCollection"40
+v32@0:8@"UIWindowScene"16@"UIWindowSceneGeometry"24
+v40@0:8@"UIWindowScene"16@"UIApplicationShortcutItem"24@?<v@?B>32
+v32@0:8@"UIWindowScene"16@"CKShareMetadata"24
+@"UISceneWindowingControlStyle"24@0:8@"UIWindowScene"16
+v32@0:8@"PHPickerViewController"16@"NSArray"24
+B32@0:8:16@24
+v32@0:8r*16r*24
+B20@0:8B16
+v28@0:8@16B24
+v24@0:8@"AVPictureInPictureController"16
+v32@0:8@"AVPictureInPictureController"16@"NSError"24
+v32@0:8@"AVPictureInPictureController"16@?<v@?B>24
+@"UITextView"
+@"AVPictureInPictureController"
+@"AVPictureInPictureVideoCallViewController"
+@"KFESPView"
+@"WKWebView"
+@"UIImageView"
+@"UIButton"
+@"NSLayoutConstraint"
+@"UIScrollView"
+@"ModFile"
+@"VideoSanh"
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+Z& c-'n3/w;9
+!6,(>73G>9OE=TKBWOG[THb[Mf^QkcUtgVvl]{rb
+>uq=f_G[V3QP[
+rS|W-uO&iC
+r[Cw_9jR8eJ.Z? R3
+%l#&s%*z)8}!<
+,]y!io!ne!k^!xY 
+0\",U"8a)Al*Z
+?tf&sV#v^&
+^1!%5:m8{X
+J"|A!s?*z>1
+6A}6;r;6y2@
++VUECO:-0R
+PLTEGpL@la!DSa
+<3}Z:|G*}`!
+[6yP }p8y?1uZ
+}]9tD7sN'va
+st4lK*nW<^v
+$'8GKL\ffz|
+=deMU1'``6
+s=J)$H$94\!
+`vz[nxQgk=UrH_^5KU-BJ#7B
+/>$6>.;N3FI)=Z;PbDYeQ]IAF
+n1y"1UiEs[
+i2!q3 u9$}>&
+aGxF1n>)gD6P- \2"]5(^;,M5+C-$4&"'
+eY{^PsTG`PHXF>F?:8124:GAGPDXbf\Xxoa{
+.,#oYG0~s@0
+>YHemZ!AV,
+C5U=O`Z QKT
+(*3!#*,.8 "*
+%%.$&.(*3%&.()3
+lbl"%0{p|mrx
+oz}E6AANQCCNYnr
+=8@A?Fn]fN[i63<
+1adX"JJXN{G
+A)MQ$ < p<
+CLLL41^" %
+Zj<V]9W~1^
+RU-5Yk\gWm
+$h`LAx{a%|
+8K{&c deJ8
+g&`z8-$!$|[(
+s^_>g=')4"tg
+&L9c&u38p4T
+[8O\uO)'q'
++8@A&\C(C@
+g"U-8<Bqg"
+VERlRYAut4O#
+PLTEGpL%!"-()
+rdlllxxl`D
+=7A67'QMAHV
+G*dgg=V* I
+XK#s8x-"3n
+WY+.nyE /w
+"ggc~~xCHH
+x+1>ISV*0<
+?Md{g]6>Xc
+yxx?Gmnjbrz
+#m64% KHIPS0
+BUIi[OMC__
+rMl]U%5|#$=
+xt:gw(I3}l
+M~AFZzjz*c
+WG;kZG5),ha
+cN52'3/#/nh
+^N=;/.t\??076.<
+bAJ9:{^ZQBCUC1
+RJ<BtQI6&"n^\
+y^LGlKDH3'
+FCbvCipd2b
+F^Z,$9i!|b
+z#FD&KDf)[w
+!"zR}rC} 3YvN.'[
+fm0KAdvU84
+x:sV'(w)6/
+0=_dkl>/=d/
+http://ns.adobe.com/xap/1.0/
+<?xpacket begin="
+" id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.1-c001 79.1462899777, 2023/06/25-23:57:14        "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf
+-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmpMM:Or
+iginalDocumentID="xmp.did:77f23475-fb15-8d4d-902b-13ae230c8d29" xmpMM:DocumentID="xmp.did:2F6CF581542911F1A912A61AA843135D" xmpMM:InstanceID="xmp.iid:2F6CF580542911F1A912A61AA843135D" xmp:CreatorTool=
+"Adobe Photoshop 25.3 (Windows)"> <xmpMM:DerivedFrom stRef:instanceID="xmp.iid:70618534-7eae-5844-940d-e106d0669396" stRef:documentID="adobe:docid:photoshop:beccd809-7c83-674d-be25-9dfd572806be"/> </r
+df:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end="r"?>
+XICC_PROFILE
+mntrRGB XYZ 
+Copyright (c) 1998 Hewlett-Packard Company
+sRGB IEC61966-2.1
+IEC http://www.iec.ch
+.IEC 61966-2.1 Default RGB colour space - sRGB
+,Reference Viewing Condition in IEC61966-2.1
+_NSClassFromString
+_NSHomeDirectory
+_NSSelectorFromString
+_NSStringFromClass
+_NSTemporaryDirectory
+_UIApplicationMain
+_UIGraphicsGetCurrentContext
+_CAFrameRateRangeMake
+_CGAffineTransformMakeRotation
+_CGAffineTransformMakeScale
+_CGBitmapContextCreate
+_CGColorRetain
+_CGColorSpaceCreateDeviceRGB
+_CGColorSpaceRelease
+_CGContextAddLineToPoint
+_CGContextBeginPath
+_CGContextClearRect
+_CGContextDrawImage
+_CGContextFillRect
+_CGContextMoveToPoint
+_CGContextRelease
+_CGContextScaleCTM
+_CGContextSetFillColorWithColor
+_CGContextSetLineWidth
+_CGContextSetRGBFillColor
+_CGContextSetRGBStrokeColor
+_CGContextSetShouldAntialias
+_CGContextSetStrokeColorWithColor
+_CGContextStrokePath
+_CGContextTranslateCTM
+_CGPathAddArc
+_CGPathAddEllipseInRect
+_CGPathCreateMutable
+_CGPathRelease
+_CGRectGetMidX
+_IOSurfaceCreate
+_IOSurfaceGetBaseAddress
+_IOSurfaceGetBytesPerRow
+_IOSurfaceGetHeight
+_IOSurfaceGetID
+_IOSurfaceGetWidth
+_IOSurfaceLock
+_IOSurfacePrefetchPages
+_IOSurfaceUnlock
+_SecAccessControlCreateWithFlags
+_SecAddSharedWebCredential
+_SecCertificateCopyKey
+_SecCreateSharedWebCredentialPassword
+_SecItemAdd
+_SecItemCopyMatching
+_SecItemDelete
+_SecItemUpdate
+_SecKeyCopyAttributes
+_SecKeyCopyExternalRepresentation
+_SecKeyCreateWithData
+_SecKeyVerifySignature
+_SecRandomCopyBytes
+_SecRequestSharedWebCredential
+_SecTrustEvaluateWithError
+_SecTrustGetCertificateAtIndex
+_SecTrustGetCertificateCount
+_xpf_get_error
+_xpf_item_resolve
+_xpf_start_with_kernel_path
+___gxx_personality_v0
+_deflateEnd
+_deflateInit2_
+_get_crc_table
+_inflateEnd
+_inflateInit2_
+_CC_SHA256
+_CC_SHA384
+__Block_object_assign
+__Block_object_dispose
+__NSGetExecutablePath
+__Unwind_Resume
+___memcpy_chk
+___memset_chk
+___snprintf_chk
+___stack_chk_fail
+___strcat_chk
+___strcpy_chk
+___strlcpy_chk
+___strncat_chk
+___strncpy_chk
+__dyld_get_image_name
+__dyld_get_image_vmaddr_slide
+__dyld_image_count
+__tlv_atexit
+_arc4random
+_arc4random_buf
+_backtrace
+_backtrace_symbols
+_dispatch_after
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_once
+_dispatch_sync
+_dispatch_time
+_fileport_makefd
+_fileport_makeport
+_ftruncate
+_getsockopt
+_gettimeofday
+_mach_error_string
+_mach_make_memory_entry_64
+_mach_port_construct
+_mach_port_deallocate
+_mach_port_destruct
+_mach_thread_self
+_mach_vm_allocate
+_mach_vm_deallocate
+_mach_vm_map
+_notify_cancel
+_notify_post
+_notify_register_dispatch
+_os_unfair_lock_lock
+_os_unfair_lock_unlock
+_posix_spawn
+_posix_spawnattr_destroy
+_posix_spawnattr_init
+_posix_spawnattr_setflags
+_posix_spawnattr_setpgroup
+_proc_pidpath
+_pthread_attr_init
+_pthread_attr_set_qos_class_np
+_pthread_cancel
+_pthread_create
+_pthread_create_suspended_np
+_pthread_detach
+_pthread_join
+_pthread_mach_thread_np
+_pthread_mutex_lock
+_pthread_mutex_unlock
+_pthread_set_qos_class_self_np
+_sandbox_check
+_sched_yield
+_setsockopt
+_strcasestr
+_sysctlbyname
+_task_info
+_thread_create
+_thread_get_state
+_thread_resume
+_thread_set_exception_ports
+_thread_set_state
+_thread_terminate
+_vm_read_overwrite
+_CFAbsoluteTimeGetCurrent
+_CFArrayGetCount
+_CFArrayGetTypeID
+_CFArrayGetValueAtIndex
+_CFBooleanGetTypeID
+_CFBooleanGetValue
+_CFDataCreate
+_CFDataGetBytePtr
+_CFDataGetLength
+_CFDictionaryApplyFunction
+_CFDictionaryGetCount
+_CFDictionaryGetTypeID
+_CFGetTypeID
+_CFNumberGetTypeID
+_CFNumberGetValue
+_CFPropertyListCreateData
+_CFPropertyListCreateWithData
+_CFRelease
+_CFRunLoopGetCurrent
+_CFRunLoopRun
+_CFStringConvertEncodingToNSStringEncoding
+_CFStringGetCString
+_CFStringGetLength
+_CFStringGetMaximumSizeForEncoding
+_CFStringGetTypeID
+_CFUUIDCreate
+_CFUUIDCreateString
+___objc_personality_v0
+_class_getClassMethod
+_method_getImplementation
+_objc_alloc
+_objc_alloc_init
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_copyWeak
+_objc_destroyWeak
+_objc_end_catch
+_objc_enumerationMutation
+_objc_getAssociatedObject
+_objc_getClass
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_opt_new
+_objc_opt_respondsToSelector
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setAssociatedObject
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+_objc_storeWeak
+_objc_unsafeClaimAutoreleasedReturnValue
+__ZN2ay15obfuscated_dataILy10ELy13921661250471302047EcE7decryptEv
+__ZN2ay15obfuscated_dataILy10ELy13921661250471302047EcEcvPcEv
+__ZN2ay15obfuscated_dataILy10ELy2543215542326776143EcE7decryptEv
+__ZN2ay15obfuscated_dataILy10ELy2543215542326776143EcEcvPcEv
+__ZN2ay15obfuscated_dataILy10ELy6307777115558479759EcE7decryptEv
+__ZN2ay15obfuscated_dataILy10ELy6307777115558479759EcEcvPcEv
+__ZN2ay15obfuscated_dataILy11ELy7637853263833829781EcE7decryptEv
+__ZN2ay15obfuscated_dataILy11ELy7637853263833829781EcEcvPcEv
+__ZN2ay15obfuscated_dataILy12ELy15799115044742437335EcE7decryptEv
+__ZN2ay15obfuscated_dataILy12ELy15799115044742437335EcEcvPcEv
+__ZN2ay15obfuscated_dataILy13ELy18299034622541934379EcE7decryptEv
+__ZN2ay15obfuscated_dataILy13ELy18299034622541934379EcEcvPcEv
+__ZN2ay15obfuscated_dataILy14ELy11210479595300807431EcE7decryptEv
+__ZN2ay15obfuscated_dataILy14ELy11210479595300807431EcEcvPcEv
+__ZN2ay15obfuscated_dataILy14ELy17799676546168982493EcE7decryptEv
+__ZN2ay15obfuscated_dataILy14ELy17799676546168982493EcEcvPcEv
+__ZN2ay15obfuscated_dataILy18ELy17400661441432513963EcE7decryptEv
+__ZN2ay15obfuscated_dataILy18ELy17400661441432513963EcEcvPcEv
+__ZN2ay15obfuscated_dataILy21ELy4430813603991250311EcE7decryptEv
+__ZN2ay15obfuscated_dataILy21ELy4430813603991250311EcEcvPcEv
+__ZN2ay15obfuscated_dataILy22ELy8928869440812849543EcE7decryptEv
+__ZN2ay15obfuscated_dataILy22ELy8928869440812849543EcEcvPcEv
+__ZN2ay15obfuscated_dataILy23ELy12769903137987318699EcE7decryptEv
+__ZN2ay15obfuscated_dataILy23ELy12769903137987318699EcEcvPcEv
+__ZN2ay15obfuscated_dataILy33ELy11632055725159735571EcE7decryptEv
+__ZN2ay15obfuscated_dataILy33ELy11632055725159735571EcEcvPcEv
+__ZN2ay15obfuscated_dataILy3ELy10641956955170656575EcE7decryptEv
+__ZN2ay15obfuscated_dataILy3ELy10641956955170656575EcEcvPcEv
+__ZN2ay15obfuscated_dataILy451ELy830216290094533979EcE7decryptEv
+__ZN2ay15obfuscated_dataILy451ELy830216290094533979EcEcvPcEv
+__ZN2ay15obfuscated_dataILy5ELy1830019902819111171EcE7decryptEv
+__ZN2ay15obfuscated_dataILy5ELy1830019902819111171EcEcvPcEv
+__ZN2ay15obfuscated_dataILy5ELy3100714853451809625EcE7decryptEv
+__ZN2ay15obfuscated_dataILy5ELy3100714853451809625EcEcvPcEv
+__ZN2ay15obfuscated_dataILy5ELy3294809170522268081EcE7decryptEv
+__ZN2ay15obfuscated_dataILy5ELy3294809170522268081EcEcvPcEv
+__ZN2ay15obfuscated_dataILy68ELy684865631047470355EcE7decryptEv
+__ZN2ay15obfuscated_dataILy68ELy684865631047470355EcEcvPcEv
+__ZN2ay15obfuscated_dataILy6ELy17089333170460414379EcE7decryptEv
+__ZN2ay15obfuscated_dataILy6ELy17089333170460414379EcEcvPcEv
+__ZN2ay15obfuscated_dataILy7ELy11083800281862613993EcE7decryptEv
+__ZN2ay15obfuscated_dataILy7ELy11083800281862613993EcEcvPcEv
+__ZN2ay15obfuscated_dataILy9ELy11216656527970350527EcE7decryptEv
+__ZN2ay15obfuscated_dataILy9ELy11216656527970350527EcEcvPcEv
+__ZN2ay15obfuscated_dataILy9ELy651213254774081993EcE7decryptEv
+__ZN2ay15obfuscated_dataILy9ELy651213254774081993EcEcvPcEv
+__ZN2ay15obfuscated_dataILy9ELy9924015390827155889EcE7decryptEv
+__ZN2ay15obfuscated_dataILy9ELy9924015390827155889EcEcvPcEv
+__ZN2ay6cipherIcEEvPT_yy
+__ZNK2ay10obfuscatorILy10ELy13921661250471302047EcE4dataEv
+__ZNK2ay10obfuscatorILy10ELy2543215542326776143EcE4dataEv
+__ZNK2ay10obfuscatorILy10ELy6307777115558479759EcE4dataEv
+__ZNK2ay10obfuscatorILy11ELy7637853263833829781EcE4dataEv
+__ZNK2ay10obfuscatorILy12ELy15799115044742437335EcE4dataEv
+__ZNK2ay10obfuscatorILy13ELy18299034622541934379EcE4dataEv
+__ZNK2ay10obfuscatorILy14ELy11210479595300807431EcE4dataEv
+__ZNK2ay10obfuscatorILy14ELy17799676546168982493EcE4dataEv
+__ZNK2ay10obfuscatorILy18ELy17400661441432513963EcE4dataEv
+__ZNK2ay10obfuscatorILy21ELy4430813603991250311EcE4dataEv
+__ZNK2ay10obfuscatorILy22ELy8928869440812849543EcE4dataEv
+__ZNK2ay10obfuscatorILy23ELy12769903137987318699EcE4dataEv
+__ZNK2ay10obfuscatorILy33ELy11632055725159735571EcE4dataEv
+__ZNK2ay10obfuscatorILy3ELy10641956955170656575EcE4dataEv
+__ZNK2ay10obfuscatorILy451ELy830216290094533979EcE4dataEv
+__ZNK2ay10obfuscatorILy5ELy1830019902819111171EcE4dataEv
+__ZNK2ay10obfuscatorILy5ELy3100714853451809625EcE4dataEv
+__ZNK2ay10obfuscatorILy5ELy3294809170522268081EcE4dataEv
+__ZNK2ay10obfuscatorILy68ELy684865631047470355EcE4dataEv
+__ZNK2ay10obfuscatorILy6ELy17089333170460414379EcE4dataEv
+__ZNK2ay10obfuscatorILy7ELy11083800281862613993EcE4dataEv
+__ZNK2ay10obfuscatorILy9ELy11216656527970350527EcE4dataEv
+__ZNK2ay10obfuscatorILy9ELy651213254774081993EcE4dataEv
+__ZNK2ay10obfuscatorILy9ELy9924015390827155889EcE4dataEv
+_NSCocoaErrorDomain
+_NSFileCreationDate
+_NSFileModificationDate
+_NSFilePosixPermissions
+_NSFileSize
+_NSFoundationVersionNumber
+_NSLocalizedDescriptionKey
+_NSPOSIXErrorDomain
+_NSURLAuthenticationMethodServerTrust
+_NSUbiquitousKeyValueStoreDidChangeExternallyNotification
+_NSFontAttributeName
+_NSForegroundColorAttributeName
+_UIApplicationDidBecomeActiveNotification
+_UIApplicationWillResignActiveNotification
+_UIBackgroundTaskInvalid
+_UIFontWeightBlack
+_UIFontWeightBold
+_UIFontWeightLight
+_UIFontWeightMedium
+_UIFontWeightRegular
+_UIFontWeightSemibold
+_kCAAlignmentCenter
+_kCAGravityResize
+_kCALineCapRound
+_CGAffineTransformIdentity
+_CGRectZero
+_CGSizeZero
+_kIOSurfaceAllocSize
+_kIOSurfaceBytesPerElement
+_kIOSurfaceBytesPerRow
+_kIOSurfaceHeight
+_kIOSurfaceIsGlobal
+_kIOSurfacePixelFormat
+_kIOSurfaceWidth
+_kSecAttrAccessControl
+_kSecAttrAccessGroup
+_kSecAttrAccessible
+_kSecAttrAccessibleAfterFirstUnlock
+_kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
+_kSecAttrAccessibleAlways
+_kSecAttrAccessibleAlwaysThisDeviceOnly
+_kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly
+_kSecAttrAccessibleWhenUnlocked
+_kSecAttrAccessibleWhenUnlockedThisDeviceOnly
+_kSecAttrAccount
+_kSecAttrAuthenticationType
+_kSecAttrAuthenticationTypeDPA
+_kSecAttrAuthenticationTypeDefault
+_kSecAttrAuthenticationTypeHTMLForm
+_kSecAttrAuthenticationTypeHTTPBasic
+_kSecAttrAuthenticationTypeHTTPDigest
+_kSecAttrAuthenticationTypeMSN
+_kSecAttrAuthenticationTypeNTLM
+_kSecAttrAuthenticationTypeRPA
+_kSecAttrComment
+_kSecAttrGeneric
+_kSecAttrKeyClass
+_kSecAttrKeyClassPublic
+_kSecAttrKeySizeInBits
+_kSecAttrKeyType
+_kSecAttrKeyTypeECSECPrimeRandom
+_kSecAttrKeyTypeRSA
+_kSecAttrLabel
+_kSecAttrPort
+_kSecAttrProtocol
+_kSecAttrProtocolAFP
+_kSecAttrProtocolAppleTalk
+_kSecAttrProtocolDAAP
+_kSecAttrProtocolEPPC
+_kSecAttrProtocolFTP
+_kSecAttrProtocolFTPAccount
+_kSecAttrProtocolFTPProxy
+_kSecAttrProtocolFTPS
+_kSecAttrProtocolHTTP
+_kSecAttrProtocolHTTPProxy
+_kSecAttrProtocolHTTPS
+_kSecAttrProtocolHTTPSProxy
+_kSecAttrProtocolIMAP
+_kSecAttrProtocolIRC
+_kSecAttrProtocolIRCS
+_kSecAttrProtocolLDAP
+_kSecAttrProtocolLDAPS
+_kSecAttrProtocolNNTP
+_kSecAttrProtocolNNTPS
+_kSecAttrProtocolPOP3
+_kSecAttrProtocolPOP3S
+_kSecAttrProtocolRTSP
+_kSecAttrProtocolRTSPProxy
+_kSecAttrProtocolSMB
+_kSecAttrProtocolSMTP
+_kSecAttrProtocolSOCKS
+_kSecAttrProtocolSSH
+_kSecAttrProtocolTelnet
+_kSecAttrProtocolTelnetS
+_kSecAttrServer
+_kSecAttrService
+_kSecAttrSynchronizable
+_kSecClass
+_kSecClassGenericPassword
+_kSecClassInternetPassword
+_kSecKeyAlgorithmRSASignatureMessagePKCS1v15SHA256
+_kSecMatchLimit
+_kSecMatchLimitAll
+_kSecMatchLimitOne
+_kSecRandomDefault
+_kSecReturnAttributes
+_kSecReturnData
+_kSecSharedPassword
+_kSecUseAuthenticationUI
+_kSecUseAuthenticationUIFail
+_kSecUseOperationPrompt
+_kSecValueData
+_SANDBOX_CHECK_NO_REPORT
+__NSConcreteStackBlock
+___stack_chk_guard
+___stderrp
+___stdoutp
+__dispatch_main_q
+_mach_task_self_
+_vm_page_mask
+_vm_page_size
+_AVAudioSessionCategoryPlayback
+_AVAudioSessionInterruptionNotification
+_AVAudioSessionInterruptionTypeKey
+_AVAudioSessionMediaServicesWereResetNotification
+_AVAudioSessionRouteChangeNotification
+_AVAudioSessionRouteChangeReasonKey
+_NSCalendarIdentifierGregorian
+_NSRunLoopCommonModes
+_OBJC_EHTYPE_$_NSException
+___NSArray0__struct
+___NSDictionary0__struct
+___kCFBooleanFalse
+___kCFBooleanTrue
+_kCFAllocatorDefault
+_kCFBooleanFalse
+_kCFBooleanTrue
+___chkstk_darwin
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+_OBJC_CLASS_$_NSConstantArray
+_OBJC_CLASS_$_NSConstantIntegerNumber
+_OBJC_CLASS_$_NSConstantDictionary
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSURLCredential
+_OBJC_CLASS_$_NSURLSessionConfiguration
+_OBJC_CLASS_$_NSURLSession
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_UIAlertController
+_OBJC_CLASS_$_UIAlertAction
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_UIApplication
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_UIWindowScene
+_OBJC_CLASS_$_NSMutableURLRequest
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSJSONSerialization
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSHTTPURLResponse
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSISO8601DateFormatter
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_UIDevice
+_OBJC_CLASS_$_NSMutableOrderedSet
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSUbiquitousKeyValueStore
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSRegularExpression
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_UISceneConfiguration
+_OBJC_CLASS_$_UIColor
+_OBJC_CLASS_$_UILabel
+_OBJC_CLASS_$_UIFont
+_OBJC_CLASS_$_CAShapeLayer
+_OBJC_CLASS_$_NSLayoutConstraint
+_OBJC_CLASS_$_UIBezierPath
+_OBJC_CLASS_$_UIImage
+_OBJC_CLASS_$_UIView
+_OBJC_CLASS_$_UIImageView
+_OBJC_CLASS_$_UIImageSymbolConfiguration
+_OBJC_CLASS_$_UISlider
+_OBJC_CLASS_$_UIButton
+_OBJC_CLASS_$_UIScreen
+_OBJC_CLASS_$_CATransaction
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSMethodSignature
+_OBJC_CLASS_$_NSInvocation
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_CADisplayLink
+_OBJC_CLASS_$_UIDocumentPickerViewController
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSCalendar
+_OBJC_CLASS_$_NSUUID
+_OBJC_CLASS_$_NSDateComponents
+_OBJC_CLASS_$_UIWindow
+_OBJC_CLASS_$_PHPickerConfiguration
+_OBJC_CLASS_$_PHPickerFilter
+_OBJC_CLASS_$_PHPickerViewController
+_OBJC_CLASS_$_CALayer
+_OBJC_CLASS_$_UIGraphicsImageRendererFormat
+_OBJC_CLASS_$_UIGraphicsImageRenderer
+_OBJC_CLASS_$_CATextLayer
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_SFSafariViewController
+_OBJC_CLASS_$_AVAudioSession
+_OBJC_CLASS_$_AVAudioPlayer
+_OBJC_CLASS_$_UINotificationFeedbackGenerator
+_OBJC_CLASS_$_UIViewController
+_OBJC_CLASS_$_AVPictureInPictureVideoCallViewController
+_OBJC_CLASS_$_AVPictureInPictureControllerContentSource
+_OBJC_CLASS_$_AVPictureInPictureController
+_OBJC_CLASS_$_UIBlurEffect
+_OBJC_CLASS_$_UIVisualEffectView
+_OBJC_CLASS_$_WKWebViewConfiguration
+_OBJC_CLASS_$_WKWebView
+_OBJC_CLASS_$_UITapGestureRecognizer
+_OBJC_CLASS_$_UIScrollView
+_OBJC_CLASS_$_UISwitch
+_OBJC_CLASS_$_UIImpactFeedbackGenerator
+_OBJC_CLASS_$_NSFileHandle
+__objc_empty_cache
+_OBJC_METACLASS_$_NSObject
+_OBJC_CLASS_$_NSObject
+_OBJC_METACLASS_$_UIResponder
+_OBJC_CLASS_$_UIResponder
+_OBJC_METACLASS_$_UIView
+_OBJC_METACLASS_$_UIViewController
+_OBJC_METACLASS_$_UIWindow
+_OBJC_METACLASS_$_UIApplication
+_OBJC_CLASS_$_UITextView
+_OBJC_METACLASS_$_UITextView
+_OBJC_METACLASS_$_UITextField
+_OBJC_CLASS_$_UITextField
+__tlv_bootstrap
+SubtitleEN
+elegramURL
+rollGameURL
+GameURLScheme
+KgvnBundleID
+RespringURL
+GetLanguage
+SetLanguage
+PluginWindow
+CameraSettingsVC
+SZipArchive
+ceneDelegate
+ecureESPField
+ewController
+METACLASS_$_
+AX_KERNEL_ADDRESS
+IN_KERNEL_ADDRESS
+PACKING_IS_BASE_RELATIVE
+EndOfCentralDirectoryRecord
+GlobalComment
+LocalFileHeader
+Zip64EndOfCentralDirectory
+eister_data
+nnette_data
+strid_data
+zenka_data
+ltBaron_data
+aldum_data
+right_data
+utterfly_data
+rlotte_data
+ugnar_data
+apheny_data
+elica_data
+euThuyen_data
+extra_data
+yadia_data
+endor_data
+rentino_data
+ennik_data
+ildur_data
+overra_data
+ayate_data
+lumia_data
+ilGroth_data
+uriel_data
+liana_data
+orion_data
+ganga_data
+kroth_data
+ talya_data
+!rmarr_data
+!reyta_data
+"uilen_data
+"ichter_data
+#yoma_data
+ephera_data
+$inestria_data
+$uperman_data
+lannas_data
+'rieuVan_data
+'ulen_data
+alhein_data
+(iolet_data
+(olkath_data
+)onderWoman_data
+*ukong_data
+*bnet_data
+2findHeroByIdi
++4findHeroByNamePKc
+7decryptEv
+13921661250471302047EcE
+,2543215542326776143EcE
+,6307777115558479759EcE
+1210479595300807431EcE
+.7799676546168982493EcE
+-1ELy7637853263833829781EcE
+-2ELy15799115044742437335EcE
+.3ELy18299034622541934379EcE
+/8ELy17400661441432513963EcE
+1ELy4430813603991250311EcE
+12ELy8928869440812849543EcE
+13ELy12769903137987318699EcE
+3ELy11632055725159735571EcE
+2ELy10641956955170656575EcE
+100714853451809625EcE
+4294809170522268081EcE
+1830019902819111171EcE
+8ELy684865631047470355EcE
+5ELy17089333170460414379EcE
+11216656527970350527EcE
+6651213254774081993EcE
+69924015390827155889EcE
+3451ELy830216290094533979EcE
+57ELy11083800281862613993EcE
+15obfuscated_dataILy
+86cipherIcEEvPT_yy
+ind_bytesEPKhmS1_mPm
+9ree_cacheEPNS_13unity_cache_tE
+deobf_metaEPNS_13file_buffer_tE
+9init_cacheEPNS_13unity_cache_tE
+code_regEPKNS_13file_buffer_tEPKNS_14section_list_tES5_iPy
+:meta_regEPKNS_13file_buffer_tEPKNS_14section_list_tES5_iPy
+field_offEPKNS_13file_buffer_tEPKNS_14section_list_tES5_yiibPi
+;meta_pathEv
+;va_to_off_anyEPKNS_14section_list_tES2_yPy
+method_ptrEPKNS_13file_buffer_tEPKNS_14section_list_tES5_yPKcjPy
+<unity_pathEv
+find_field_idxEPKNS_13file_buffer_tEPKjPKcS6_S6_S6_PiS7_Pb
+FindFieldOffsetEPKcS1_S1_S1_
+>find_method_tokEPKNS_13file_buffer_tEPKjPKcS6_S6_S6_Pj
+>metadata_stringEPKNS_13file_buffer_tEPKjj
+FindMethodOffsetEPKcS1_S1_S1_
+?xor_subtract_u32Ejjj
+adataUsageEPKcS1_S1_S1_
+?hodOffsetNEPKcS1_S1_S1_i
+91parse_machoEPKNS_13file_buffer_tEPNS_14section_list_tES4_Py
+freeEPNS_14section_list_tE
+ApushEPNS_14section_list_tENS_16search_section_tE
+ind_refsEPKNS_13file_buffer_tEPKNS_14section_list_tEyPym
+Aree_fileEPNS_13file_buffer_tE
+Boff_to_vaEPKNS_14section_list_tEyPy
+Bread_fileEPKcPNS_13file_buffer_tE
+Bva_to_offEPKNS_14section_list_tEyPy
+@26FindSingletonSlot_ExternalEPKcS1_jy
+A5va_inEPKNS_14section_list_tEy
+13921661250471302047EcE4dataEv
+D2543215542326776143EcE4dataEv
+D6307777115558479759EcE4dataEv
+1210479595300807431EcE4dataEv
+E7799676546168982493EcE4dataEv
+D1ELy7637853263833829781EcE4dataEv
+E2ELy15799115044742437335EcE4dataEv
+E3ELy18299034622541934379EcE4dataEv
+E8ELy17400661441432513963EcE4dataEv
+1ELy4430813603991250311EcE4dataEv
+G2ELy8928869440812849543EcE4dataEv
+G3ELy12769903137987318699EcE4dataEv
+3ELy11632055725159735571EcE4dataEv
+HELy10641956955170656575EcE4dataEv
+100714853451809625EcE4dataEv
+I294809170522268081EcE4dataEv
+1830019902819111171EcE4dataEv
+8ELy684865631047470355EcE4dataEv
+JELy17089333170460414379EcE4dataEv
+11216656527970350527EcE4dataEv
+J651213254774081993EcE4dataEv
+J9924015390827155889EcE4dataEv
+H451ELy830216290094533979EcE4dataEv
+J7ELy11083800281862613993EcE4dataEv
+CK2ay10obfuscatorILy
+Lephys_data
+acho_parse
+Pemory_stream_clone
+Ph_execute_header
+arm64_xref_metric
+Ppattern_metric
+Pstring_metric
+Pxref_metric
+*Xeniel_data
+Mdsc_load_
+Olachansinhmenh_data
+Ppfsec_run_
+Ptubaobon_data
+get_type_string
+Wtype_get_
+Wstr_ldr_type_width
+lign_to_size
+Rmfi_cslot_get
+Rpfs_fsnode_
+Xrrow_sandbox_ext
+ase64_encode
+Xuffered_stream_init_from_buffer
+de_directory_calculate_page_hash
+hysically_contiguous_mapping
+[roperty_list_from_file
+der_entitlements_blob
+[exception_port
+[surface_with_address
+\target_file
+\xml_entitlements_blob
+ash_process
+]ype_to_string
+blob_magic_to_string
+]code_directory_get_size
+]hash_type_to_
+identifier
+`hash_type
+`identifier
+code_slots
+aspecial_slots
+`print_content
+`read_slot_hash
+averify_code_slot
+est_code_directory
+csert_blob_a
+dplace_blob
+append_blob
+bcalculate_best_cdhash
+cprint_content
+_code_directory_
+asuperblob_
+Zheck_sandbox_var_rw
+Zlear_guard_exception
+eurrent_time_ms
+fentitlement
+futf8_string
+ffree_encoded_item
+fault_file_content
+gstroy_remote_call
+hexcguard_kill
+hfilter_on_thread
+chained_fixups
+istring_at_offset
+ioff_to_vmaddr
+jimage_for_section_address
+enumerate_
+jget_macho
+_premapped
+knit_from_path
+from_vmaddr
+mstring_from_vmaddr
+jget_base_address
+lmapping_enumerate_chained_fixups
+mvmaddr_to_fileoff
+ho_remote_call_
+ocode_entitlements_property_list
+oumerate_range
+oxecutable
+preferred_slice
+ingle_slice
+memory_stream
+pcreate_for_macho_array
+pdsc_init_from_memory_stream
+penumerate_slices
+pinit_from_
+qparse_slices
+qread_at_offset
+file_descriptor
+64_filefunc
+s_filefunc
+szlib_filefunc64_32_def_from_filefunc32
+e_stream_init_from_
+and_corrupt_socket
+tpacia_gadget
+treturn_value_offs
+tve_icon_dock
+uPACSupported
+nitialized
+KernelStackLR
+vSbxMsgOff
+wonitorThread
+vkernelSlide
+allThreadAddr
+xreatingExtraThread
+condExceptionPort
+yhmemCache
+zThreadAddr
+zhreadList
+xdummyThread
+xfirstExceptionPort
+xgadgetPacia
+yoriginalState
+{FOVTarget
+|PitchTarget
+|ZoomTarget
+~WindowLayer
+ProcessPid
+ideVisibleMonster
+nStateChange
+rientObserver
+uiImageCls
+BattleSystem
+ameraSystem
+BattleLogic
+emoteHostCtrl
+forceRefresh
+processState
+for_path_by_
+bootManifestHash
+hw_cpufamily
+property_list_data
+sockoptReadData
+uMlockDict
+rab_kernelcache
+icon_labels
+ghestSuccessIdx
+get_cpu_information
+supported_arm64e_abi
+remote_call
+target_file
+ialize_physical_read_write
+ject_guard_exception
+addr_valid
+ernelcache_valid
+pac_supported
+pc_entry_lookup
+initDrawCache
+w_sockets_leak_forever
+_zone_element
+alloc_array_decode
+ad_command_to_string
+ck_sandbox_lock
+abel_get_sandbox
+dependencies
+function_starts
+load_commands
+xtract_cs_to_file
+ind_code_signature_bounds
+and_commands_size
+base_address
+containing_cache
+mach_header
+_for_writing
+s_encrypted
+ction_by_addr
+gment_by_addr
+ignature_blob_to_der_encoded_data
+fileset_machos
+code_signature
+string_at_
+trie_node_at_offset
+uleb128_at_offset
+place_code_signature
+fileoff_to_vmaddr
+vmaddr_to_fileoff
+array_create_for_paths
+translate_
+ind_memory
+raw_pointer
+cmp_masked
+ory_stream_
+monitor_threads
+thread_func
+ig_bypass_
+ative_strip
+_uss_ss_64
+kernel_saved_state_sp
+saved_state
+proc_fp_glob
+depend6_inp6_
+list_le_next
+info_ipi_zone
+entry_ie_object
+port_ip_kobject
+space_is_table
+child_tqe_next
+background_thread
+ask_exc_guard
+hreads_next
+exception_type
+contextdata
+_exc_info_
+utex_lck_mtx_data
+ask_threads_next
+guard_exc_info_code
+object_or_delta
+links_next
+backing_copy
+vo_un1_vou_size
+named_entry_
+children_tqh_first
+links_lh_first
+writecount
+kalloc_type_view_kt_zv_zv_name
+label_l_perpolicy_
+mount_mnt_flag
+namecache_nc_
+socket_so_
+ucred_cr_label
+verwrite_system_file
+rse_entitlements_from_property_list
+tch_sandbox_ext
+dynamic_xref_init
+pattern_init
+string_init
+adrp_ldr_str_add_reference
+enumerate_xrefs
+scan_register_write
+function_start
+dsc_mapping
+fo_populate_
+at_address
+pointer_decoder
+contains_vmaddr
+_with_retry
+entitlement_information
+cred_label
+blend_discriminator_wrapper
+string_discriminator_special
+hysical_oob_
+ut_shmem_in_cache
+ndomMarker
+w_buffer_find_memory
+earch_sandbox
+tore_trojan_thread
+ply_with_state
+try_first_thread
+veal_path_by_vnode
+exception_port_on_thread
+target_kaddr
+TargetKaddr
+zeof_ipc_entry
+rt_filter_bypass
+tus_bar_tweak
+comparator
+ccessReadCount
+pray_socket
+table_entry
+rgetObject
+state_wrapper
+resume_wrapper
+c_page_16k
+CurrentFile
+ZStreamPos64
+LocalExtrafield
+tringFileNameCompare
+LocateFile
+ReadCurrentFile
+_copyright
+lock_sandbox_lock
+c_code_signature
+oad_commands_for_coretrust_bypass
+segment_command_64
+entry_get_next_entry
+find_entry
+get_header
+header_get_first_entry
+iterate_entries
+remote_page
+create_shmem_with_object
+entry_get_range
+get_object
+header_get_nentries
+pack_pointer
+shmem_free
+unpack_pointer
+child_vnode
+redirect_f
+unredirect_f
+for_mig_syscall
+iredPageMarker
+NewFileInZip
+RemoveExtraInfoBlock
+WriteInFileInZip
+LoadCentralDirectoryRecord
+|P|P|PPPhhP
+\\\\\\\\\\\\\\\\\\\\\\\
+,0$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@
+LDD88tD8@@8888x88
+_KFGetLanguage
+_KFOBF_AppPath_Eu
+_KFOBF_AppPath_India
+_KFOBF_AppPath_Kgth
+_KFOBF_AppPath_Kgtw
+_KFOBF_AppPath_Kgvn
+_KFOBF_AppTitle
+_KFOBF_CamFOVKey
+_KFOBF_CamPitchKey
+_KFOBF_CamZoomKey
+_KFOBF_GameURLScheme
+_KFOBF_KgvnBundleID
+_KFOBF_LocSubtitleEN
+_KFOBF_LocTitleEN
+_KFOBF_ProcName_Eu
+_KFOBF_ProcName_India
+_KFOBF_ProcName_Kgth
+_KFOBF_ProcName_Kgtw
+_KFOBF_ProcName_Kgvn
+_KFOBF_RespringURL
+_KFOBF_TelegramURL
+_KFOBF_TrollGameURL
+_KFOBF_Watermark
+_KFSetLanguage
+_LoadCentralDirectoryRecord
+_OBJC_CLASS_$_AppDelegate
+_OBJC_CLASS_$_BannerView
+_OBJC_CLASS_$_HeroHelper
+_OBJC_CLASS_$_KFCameraSettingsVC
+_OBJC_CLASS_$_KFESPView
+_OBJC_CLASS_$_KFHUDAppDelegate
+_OBJC_CLASS_$_KFHUDApplication
+_OBJC_CLASS_$_KFHUDESPView
+_OBJC_CLASS_$_KFHUDPluginWindow
+_OBJC_CLASS_$_KFHUDViewController
+_OBJC_CLASS_$_KFHUDWindow
+_OBJC_CLASS_$_LogTextView
+_OBJC_CLASS_$_ModFile
+_OBJC_CLASS_$_SSZipArchive
+_OBJC_CLASS_$_SceneDelegate
+_OBJC_CLASS_$_SecureESPField
+_OBJC_CLASS_$_VideoSanh
+_OBJC_CLASS_$_ViewController
+_OBJC_METACLASS_$_AppDelegate
+_OBJC_METACLASS_$_BannerView
+_OBJC_METACLASS_$_HeroHelper
+_OBJC_METACLASS_$_KFCameraSettingsVC
+_OBJC_METACLASS_$_KFESPView
+_OBJC_METACLASS_$_KFHUDAppDelegate
+_OBJC_METACLASS_$_KFHUDApplication
+_OBJC_METACLASS_$_KFHUDESPView
+_OBJC_METACLASS_$_KFHUDPluginWindow
+_OBJC_METACLASS_$_KFHUDViewController
+_OBJC_METACLASS_$_KFHUDWindow
+_OBJC_METACLASS_$_LogTextView
+_OBJC_METACLASS_$_ModFile
+_OBJC_METACLASS_$_SSZipArchive
+_OBJC_METACLASS_$_SceneDelegate
+_OBJC_METACLASS_$_SecureESPField
+_OBJC_METACLASS_$_VideoSanh
+_OBJC_METACLASS_$_ViewController
+_TGPublicKey
+_TGSecretKey
+_VME_OFFSET
+_VM_MAX_KERNEL_ADDRESS
+_VM_MIN_KERNEL_ADDRESS
+_VM_PACKING_IS_BASE_RELATIVE
+_Write_EndOfCentralDirectoryRecord
+_Write_GlobalComment
+_Write_LocalFileHeader
+_Write_Zip64EndOfCentralDirectoryLocator
+_Write_Zip64EndOfCentralDirectoryRecord
+__Airi_data
+__Airi_data_len
+__Aleister_data
+__Aleister_data_len
+__Alice_data
+__Alice_data_len
+__Allain_data
+__Allain_data_len
+__Amily_data
+__Amily_data_len
+__Annette_data
+__Annette_data_len
+__Aoi_data
+__Aoi_data_len
+__Arduin_data
+__Arduin_data_len
+__Arum_data
+__Arum_data_len
+__Astrid_data
+__Astrid_data_len
+__Ata_data
+__Ata_data_len
+__Athur_data
+__Athur_data_len
+__Aya_data
+__Aya_data_len
+__Azenka_data
+__Azenka_data_len
+__Baldum_data
+__Baldum_data_len
+__Bijan_data
+__Bijan_data_len
+__Billow_data
+__Billow_data_len
+__Biron_data
+__Biron_data_len
+__BoltBaron_data
+__BoltBaron_data_len
+__Bonnie_data
+__Bonnie_data_len
+__Bright_data
+__Bright_data_len
+__Butterfly_data
+__Butterfly_data_len
+__Capheny_data
+__Capheny_data_len
+__Celica_data
+__Celica_data_len
+__Charlotte_data
+__Charlotte_data_len
+__Chaugnar_data
+__Chaugnar_data_len
+__Cresh_data
+__Cresh_data_len
+__DArcy_data
+__DArcy_data_len
+__Dextra_data
+__Dextra_data_len
+__DieuThuyen_data
+__DieuThuyen_data_len
+__Dirak_data
+__Dirak_data_len
+__Dolia_data
+__Dolia_data_len
+__Dyadia_data
+__Dyadia_data_len
+__Edras_data
+__Edras_data_len
+__Elendor_data
+__Elendor_data_len
+__Elsu_data
+__Elsu_data_len
+__Enzo_data
+__Enzo_data_len
+__Erin_data
+__Erin_data_len
+__Errol_data
+__Errol_data_len
+__Fennik_data
+__Fennik_data_len
+__Flash_data
+__Flash_data_len
+__Florentino_data
+__Florentino_data_len
+__FlowbornM_data
+__FlowbornM_data_len
+__FlowbornR_data
+__FlowbornR_data_len
+__Gildur_data
+__Gildur_data_len
+__Goverra_data
+__Goverra_data_len
+__Grakk_data
+__Grakk_data_len
+__Hayate_data
+__Hayate_data_len
+__Heino_data
+__Heino_data_len
+__Helen_data
+__Helen_data_len
+__Iggy_data
+__Iggy_data_len
+__Ignis_data
+__Ignis_data_len
+__Ilumia_data
+__Ilumia_data_len
+__Isha_data
+__Isha_data_len
+__Jinna_data
+__Jinna_data_len
+__Joker_data
+__Joker_data_len
+__Kahlii_data
+__Kahlii_data_len
+__Kaine_data
+__Kaine_data_len
+__Kerra_data
+__Kerra_data_len
+__KilGroth_data
+__KilGroth_data_len
+__Kriknak_data
+__Kriknak_data_len
+__Krixi_data
+__Krixi_data_len
+__Krizzix_data
+__Krizzix_data_len
+__Lauriel_data
+__Lauriel_data_len
+__Lavie_data
+__Lavie_data_len
+__Liliana_data
+__Liliana_data_len
+__Lindis_data
+__Lindis_data_len
+__Lorion_data
+__Lorion_data_len
+__Lubu_data
+__Lubu_data_len
+__Lumbur_data
+__Lumbur_data_len
+__Maloch_data
+__Maloch_data_len
+__Marja_data
+__Marja_data_len
+__Max_data
+__Max_data_len
+__Mganga_data
+__Mganga_data_len
+__Mina_data
+__Mina_data_len
+__Ming_data
+__Ming_data_len
+__Moren_data
+__Moren_data_len
+__Murad_data
+__Murad_data_len
+__Nakroth_data
+__Nakroth_data_len
+__Natalya_data
+__Natalya_data_len
+__Omega_data
+__Omega_data_len
+__Omen_data
+__Omen_data_len
+__Ormarr_data
+__Ormarr_data_len
+__Paine_data
+__Paine_data_len
+__Preyta_data
+__Preyta_data_len
+__Qi_data_len
+__Quilen_data
+__Quilen_data_len
+__Raz_data
+__Raz_data_len
+__Richter_data
+__Richter_data_len
+__Rouie_data
+__Rouie_data_len
+__Rourke_data
+__Rourke_data_len
+__Roxie_data
+__Roxie_data_len
+__Ryoma_data
+__Ryoma_data_len
+__Sephera_data
+__Sephera_data_len
+__Sinestria_data
+__Sinestria_data_len
+__Skud_data
+__Skud_data_len
+__Slim_data
+__Slim_data_len
+__Superman_data
+__Superman_data_len
+__Taara_data
+__Taara_data_len
+__Tachi_data
+__Tachi_data_len
+__Tamyn_data
+__Tamyn_data_len
+__Telannas_data
+__Telannas_data_len
+__Teme_data
+__Teme_data_len
+__Terri_data
+__Terri_data_len
+__Thane_data
+__Thane_data_len
+__Thorn_data
+__Thorn_data_len
+__Toro_data
+__Toro_data_len
+__TrieuVan_data
+__TrieuVan_data_len
+__Tulen_data
+__Tulen_data_len
+__Valhein_data
+__Valhein_data_len
+__Veera_data
+__Veera_data_len
+__Veres_data
+__Veres_data_len
+__Violet_data
+__Violet_data_len
+__Volkath_data
+__Volkath_data_len
+__Wiro_data
+__Wiro_data_len
+__Wish_data
+__Wish_data_len
+__WonderWoman_data
+__WonderWoman_data_len
+__Wukong_data
+__Wukong_data_len
+__Xeniel_data
+__Xeniel_data_len
+__Yan_data
+__Yan_data_len
+__Ybnet_data
+__Ybnet_data_len
+__Yena_data
+__Yena_data_len
+__Yorn_data
+__Yorn_data_len
+__Yue_data
+__Yue_data_len
+__Z12findHeroByIdi
+__Z14findHeroByNamePKc
+__ZN5Unity10deobf_metaEPNS_13file_buffer_tE
+__ZN5Unity10find_bytesEPKhmS1_mPm
+__ZN5Unity10free_cacheEPNS_13unity_cache_tE
+__ZN5Unity10init_cacheEPNS_13unity_cache_tE
+__ZN5Unity11parse_machoEPKNS_13file_buffer_tEPNS_14section_list_tES4_Py
+__ZN5Unity13find_code_regEPKNS_13file_buffer_tEPKNS_14section_list_tES5_iPy
+__ZN5Unity13find_meta_regEPKNS_13file_buffer_tEPKNS_14section_list_tES5_iPy
+__ZN5Unity13get_field_offEPKNS_13file_buffer_tEPKNS_14section_list_tES5_yiibPi
+__ZN5Unity13get_meta_pathEv
+__ZN5Unity13va_to_off_anyEPKNS_14section_list_tES2_yPy
+__ZN5Unity14find_field_idxEPKNS_13file_buffer_tEPKjPKcS6_S6_S6_PiS7_Pb
+__ZN5Unity14get_method_ptrEPKNS_13file_buffer_tEPKNS_14section_list_tES5_yPKcjPy
+__ZN5Unity14get_unity_pathEv
+__ZN5Unity15FindFieldOffsetEPKcS1_S1_S1_
+__ZN5Unity15find_method_tokEPKNS_13file_buffer_tEPKjPKcS6_S6_S6_Pj
+__ZN5Unity15metadata_stringEPKNS_13file_buffer_tEPKjj
+__ZN5Unity16FindMethodOffsetEPKcS1_S1_S1_
+__ZN5Unity16xor_subtract_u32Ejjj
+__ZN5Unity17FindMetadataUsageEPKcS1_S1_S1_
+__ZN5Unity17FindMethodOffsetNEPKcS1_S1_S1_i
+__ZN5Unity26FindSingletonSlot_ExternalEPKcS1_jy
+__ZN5Unity5va_inEPKNS_14section_list_tEy
+__ZN5Unity8sec_freeEPNS_14section_list_tE
+__ZN5Unity8sec_pushEPNS_14section_list_tENS_16search_section_tE
+__ZN5Unity9find_refsEPKNS_13file_buffer_tEPKNS_14section_list_tEyPym
+__ZN5Unity9free_fileEPNS_13file_buffer_tE
+__ZN5Unity9off_to_vaEPKNS_14section_list_tEyPy
+__ZN5Unity9read_fileEPKcPNS_13file_buffer_tE
+__ZN5Unity9va_to_offEPKNS_14section_list_tEyPy
+__Zata_data
+__Zata_data_len
+__Zephys_data
+__Zephys_data_len
+__Zill_data
+__Zill_data_len
+__Zip_data
+__Zip_data_len
+__Zuka_data
+__Zuka_data_len
+__dsc_load_file
+__dsc_load_symbols
+__kCBlack05
+__kCHPGreen
+__kCOrange
+__kCYellow
+__lachansinhmenh_data
+__lachansinhmenh_data_len
+__macho_parse
+__memory_stream_clone
+__mh_execute_header
+__pfsec_run_arm64_xref_metric
+__pfsec_run_pattern_metric
+__pfsec_run_string_metric
+__pfsec_run_xref_metric
+__tubaobon_data
+__tubaobon_data_len
+_align_to_size
+_amfi_cslot_get
+_apfs_fsnode_get_gid
+_apfs_fsnode_get_mode
+_apfs_fsnode_get_uid
+_apfs_fsnode_set_gid
+_apfs_fsnode_set_mode
+_apfs_fsnode_set_uid
+_arm64_dec_add_imm
+_arm64_dec_adr_p
+_arm64_dec_b_c_cond
+_arm64_dec_b_l
+_arm64_dec_cb_n_z
+_arm64_dec_ldr_imm
+_arm64_dec_ldr_lit
+_arm64_dec_ldrs_imm
+_arm64_dec_mov_imm
+_arm64_dec_mov_reg
+_arm64_dec_str_imm
+_arm64_dec_sub_imm
+_arm64_dec_tb_n_z
+_arm64_gen_add_imm
+_arm64_gen_adr_p
+_arm64_gen_b_c_cond
+_arm64_gen_b_l
+_arm64_gen_cb_n_z
+_arm64_gen_ldp
+_arm64_gen_ldr_imm
+_arm64_gen_ldr_lit
+_arm64_gen_ldrs_imm
+_arm64_gen_mov_imm
+_arm64_gen_mov_reg
+_arm64_gen_str_imm
+_arm64_gen_sub_imm
+_arm64_gen_tb_n_z
+_arm64_reg_get_type_string
+_arm64_reg_type_get_string
+_arm64_reg_type_get_width
+_arm64_str_ldr_type_width
+_base64_encode
+_bocpha_len
+_borrow_sandbox_ext
+_buffered_stream_init_from_buffer
+_buffered_stream_init_from_buffer_nocopy
+_call_zopen64
+_call_zseek64
+_call_ztell64
+_camtru_len
+_capcuu_len
+_check_sandbox_var_rw
+_clear_guard_exception
+_code_directory_calculate_page_hash
+_controlData
+_controlSocket
+_controlSocketPcb
+_crash_process
+_create_der_entitlements_blob
+_create_exception_port
+_create_physically_contiguous_mapping
+_create_property_list_from_file
+_create_surface_with_address
+_create_target_file
+_create_xml_entitlements_blob
+_cs_blob_magic_to_string
+_cs_code_directory_get_size
+_cs_hash_type_to_length
+_cs_hash_type_to_string
+_cs_slot_to_string
+_cs_slot_type_to_string
+_csd_blob_delete
+_csd_blob_free
+_csd_blob_get_size
+_csd_blob_get_type
+_csd_blob_init
+_csd_blob_insert
+_csd_blob_read
+_csd_blob_read_string
+_csd_blob_set_type
+_csd_blob_write
+_csd_blob_write_string
+_csd_code_directory_calculate_hash
+_csd_code_directory_calculate_rank
+_csd_code_directory_copy_identifier
+_csd_code_directory_copy_team_id
+_csd_code_directory_get_flags
+_csd_code_directory_get_hash_type
+_csd_code_directory_init
+_csd_code_directory_print_content
+_csd_code_directory_read_slot_hash
+_csd_code_directory_set_flags
+_csd_code_directory_set_hash_type
+_csd_code_directory_set_identifier
+_csd_code_directory_set_team_id
+_csd_code_directory_update_code_slots
+_csd_code_directory_update_special_slots
+_csd_code_directory_verify_code_slot
+_csd_code_directory_verify_code_slots
+_csd_superblob_append_blob
+_csd_superblob_calculate_best_cdhash
+_csd_superblob_decode
+_csd_superblob_encode
+_csd_superblob_find_best_code_directory
+_csd_superblob_find_blob
+_csd_superblob_find_blob_by_magic
+_csd_superblob_free
+_csd_superblob_init
+_csd_superblob_insert_blob_after_blob
+_csd_superblob_insert_blob_at_index
+_csd_superblob_print_content
+_csd_superblob_remove_blob
+_csd_superblob_remove_blob_at_index
+_csd_superblob_replace_blob
+_current_time_ms
+_default_file_content
+_der_encode_array
+_der_encode_boolean
+_der_encode_entitlement
+_der_encode_entitlements
+_der_encode_integer
+_der_encode_item
+_der_encode_length
+_der_encode_sequence
+_der_encode_set
+_der_encode_utf8_string
+_der_free_encoded_item
+_destroy_remote_call
+_disable_aslr
+_disable_excguard_kill
+_disable_filter_on_thread
+_do_remote_call_stable
+_do_remote_call_temp
+_dsc_enumerate_chained_fixups
+_dsc_enumerate_files
+_dsc_enumerate_images
+_dsc_enumerate_mappings
+_dsc_file_read_at_offset
+_dsc_file_read_string_at_offset
+_dsc_fileoff_to_vmaddr
+_dsc_find_buffer
+_dsc_find_image_for_section_address
+_dsc_get_base_address
+_dsc_image_enumerate_chained_fixups
+_dsc_image_enumerate_patches
+_dsc_image_enumerate_symbols
+_dsc_image_get_macho
+_dsc_init_from_path
+_dsc_init_from_path_premapped
+_dsc_is32bit
+_dsc_lookup_image_by_address
+_dsc_lookup_image_by_path
+_dsc_lookup_macho_by_address
+_dsc_lookup_macho_by_path
+_dsc_lookup_mapping
+_dsc_mapping_enumerate_chained_fixups
+_dsc_mapping_enumerate_chained_fixups_on_range
+_dsc_read_from_vmaddr
+_dsc_read_string_from_vmaddr
+_dsc_vmaddr_to_fileoff
+_early_kread
+_early_kread64
+_early_kwrite32bytes
+_early_kwrite64
+_enable_aslr
+_encode_entitlements_property_list
+_enumerate_range
+_executableName
+_executablePath
+_fat_add_macho
+_fat_create_for_macho_array
+_fat_dsc_init_from_memory_stream
+_fat_enumerate_slices
+_fat_find_preferred_slice
+_fat_find_slice
+_fat_get_single_slice
+_fat_get_stream
+_fat_init_from_memory_stream
+_fat_init_from_path
+_fat_parse_slices
+_fat_read_at_offset
+_file_stream_init_from_file_descriptor
+_file_stream_init_from_file_descriptor_nodup
+_file_stream_init_from_path
+_fill_fopen64_filefunc
+_fill_fopen_filefunc
+_fill_zlib_filefunc64_32_def_from_filefunc32
+_find_and_corrupt_socket
+_find_pacia_gadget
+_find_return_value_offs
+_five_icon_dock
+_freeTarget
+_freeTargetSize
+_freeThread
+_freeThreadStart
+_free_thread
+_gIsA18Above
+_gIsPACSupported
+_gMlockDict
+_gPhysBase
+_gSelfProc
+_gSelfTask
+_gVirtBase
+_g_MFB_initialized
+_g_MFB_isRunning
+_g_MFB_kernelSlide
+_g_MFB_migKernelStackLR
+_g_MFB_migLockOff
+_g_MFB_migSbxMsgOff
+_g_MFB_monitorThread1
+_g_MFB_monitorThread2
+_g_MFB_runFlag
+_g_MFB_thread
+_g_RC_callThreadAddr
+_g_RC_creatingExtraThread
+_g_RC_dummyThread
+_g_RC_dummyThreadAddr
+_g_RC_dummyThreadMach
+_g_RC_dummyThreadTro
+_g_RC_firstExceptionPort
+_g_RC_firstExceptionPortAddr
+_g_RC_gadgetPacia
+_g_RC_originalState
+_g_RC_secondExceptionPort
+_g_RC_secondExceptionPortAddr
+_g_RC_selfThreadAddr
+_g_RC_selfThreadCtid
+_g_RC_shmemCache
+_g_RC_success
+_g_RC_taskAddr
+_g_RC_threadList
+_g_RC_trojanMem
+_g_RC_trojanThreadAddr
+_g_RC_vmMap
+_g_camDataAddr
+_g_camDataPOff
+_g_camDataVOff
+_g_camFOVTarget
+_g_camManaged
+_g_camOrigCaptured
+_g_camOrigFOV
+_g_camOrigPitch
+_g_camOrigZoom
+_g_camOrigZoomAmount
+_g_camPitchTarget
+_g_camZoomTarget
+_g_eliteOnly
+_g_espDrawLayer
+_g_espHasVP
+_g_espHeroCount
+_g_espHeroes
+_g_espIOSurface
+_g_espImageView
+_g_espLock
+_g_espMinionCount
+_g_espMinionLock
+_g_espMinions
+_g_espVPLock
+_g_espWindowLayer
+_g_forceRefresh
+_g_hideVisibleMonster
+_g_hudProcessPid
+_g_hudWindow
+_g_infoPanelOffsetX
+_g_infoPanelOffsetY
+_g_infoPanelScale
+_g_kernel_base
+_g_kernel_slide
+_g_kgvnPid
+_g_kgvnProc
+_g_krw_error
+_g_localCamp
+_g_localESPLayer
+_g_localHUDWindow
+_g_localHostCtrl
+_g_minimapData
+_g_minimapLock
+_g_minimapOffsetX
+_g_minimapOffsetY
+_g_onStateChange
+_g_orientObserver
+_g_processState
+_g_rc_selCGImage
+_g_rc_selContents
+_g_rc_selImgFile
+_g_rc_selPerform
+_g_rc_selSetImage
+_g_rc_uiImageCls
+_g_remoteHostCtrl
+_g_rvaBattleLogic
+_g_rvaCBattleSystem
+_g_rvaCameraSystem
+_g_rvaGameFramework
+_g_rvaKyriosFramework
+_g_rvaLLogicCore
+_g_secureContainer
+_g_secureESPField
+_g_serverMode
+_g_serverProcName
+_g_showBox
+_g_showDist
+_g_showHPBar
+_g_showIcon
+_g_showInfo
+_g_showLine
+_g_showMinimap
+_g_showMonster
+_g_showMonsterHP
+_g_showMonsterName
+_g_showName
+_g_streamMode
+_gamthet_len
+_get_bootManifestHash
+_get_hw_cpufamily
+_get_property_list_data
+_get_rootvnode
+_get_shmem_for_page
+_get_shmem_from_cache
+_get_vnode_by_fd
+_get_vnode_for_path_by_chdir
+_get_vnode_for_path_by_open
+_getsockoptReadData
+_grab_kernelcache
+_heroArray
+_hexdump_file
+_hide_icon_labels
+_hide_path
+_highestSuccessIdx
+_host_get_cpu_information
+_host_supported_arm64e_abi
+_il2cpp_field_off
+_il2cpp_init
+_init_globals
+_init_remote_call
+_init_target_file
+_initialize_physical_read_write
+_inject_guard_exception
+_ipc_entry_lookup
+_isA18Device
+_is_kaddr_valid
+_is_kernelcache_valid
+_is_pac_supported
+_kalloc_array_decode
+_kexploit_cleanup
+_kexploit_opa334
+_kf_clear_hud
+_kf_clear_hud_sync
+_kf_hud_main
+_kf_initDrawCache
+_kread_ptr
+_kread_smrptr
+_krw_sockets_leak_forever
+_kwrite_zone_element
+_kwritebuf
+_label_get_sandbox
+_load_command_to_string
+_lock_sandbox_lock
+_log_write
+_macho_array_create_for_paths
+_macho_enumerate_dependencies
+_macho_enumerate_function_starts
+_macho_enumerate_load_commands
+_macho_enumerate_rpaths
+_macho_enumerate_sections
+_macho_enumerate_segments
+_macho_enumerate_symbols
+_macho_extract_cs_to_file
+_macho_find_code_signature_bounds
+_macho_free
+_macho_get_base_address
+_macho_get_containing_cache
+_macho_get_filetype
+_macho_get_mach_header
+_macho_get_mach_header_and_commands_size
+_macho_get_mach_header_size
+_macho_get_stream
+_macho_init
+_macho_init_for_writing
+_macho_is_encrypted
+_macho_lookup_section_by_addr
+_macho_lookup_segment_by_addr
+_macho_parse_fileset_machos
+_macho_parse_segments
+_macho_parse_signature_blob_to_der_encoded_data
+_macho_read_at_offset
+_macho_read_at_vmaddr
+_macho_read_code_signature
+_macho_read_string_at_offset
+_macho_read_string_at_vmaddr
+_macho_read_trie_node_at_offset
+_macho_read_uleb128_at_offset
+_macho_replace_code_signature
+_macho_translate_fileoff_to_vmaddr
+_macho_translate_vmaddr_to_fileoff
+_macho_write_at_offset
+_macho_write_at_vmaddr
+_memcmp_masked
+_memory_stream_copy_data
+_memory_stream_delete
+_memory_stream_expand
+_memory_stream_find_memory
+_memory_stream_free
+_memory_stream_get_flags
+_memory_stream_get_raw_pointer
+_memory_stream_get_size
+_memory_stream_hardclone
+_memory_stream_insert
+_memory_stream_read
+_memory_stream_read_string
+_memory_stream_softclone
+_memory_stream_trim
+_memory_stream_write
+_memory_stream_write_string
+_mig_bypass_destroy
+_mig_bypass_init
+_mig_bypass_is_running
+_mig_bypass_monitor_threads
+_mig_bypass_pause
+_mig_bypass_resume
+_mig_bypass_start
+_mig_bypass_stop
+_mig_bypass_thread_func
+_native_strip
+_ngatngu_len
+_off_arm_kernel_saved_state_sp
+_off_arm_saved_state64_lr
+_off_arm_saved_state64_pc
+_off_arm_saved_state_uss_ss_64
+_off_filedesc_fd_cdir
+_off_filedesc_fd_ofiles
+_off_fileglob_fg_data
+_off_fileglob_fg_flag
+_off_fileproc_fp_glob
+_off_inpcb_inp_depend6_inp6_chksum
+_off_inpcb_inp_depend6_inp6_icmp6filt
+_off_inpcb_inp_list_le_next
+_off_inpcb_inp_pcbinfo
+_off_inpcb_inp_socket
+_off_inpcbinfo_ipi_zone
+_off_ipc_entry_ie_object
+_off_ipc_port_ip_kobject
+_off_ipc_space_is_table
+_off_kalloc_type_view_kt_zv_zv_name
+_off_label_l_perpolicy_amfi
+_off_label_l_perpolicy_sandbox
+_off_mount_mnt_flag
+_off_namecache_nc_child_tqe_next
+_off_namecache_nc_vp
+_off_proc_p_fd
+_off_proc_p_flag
+_off_proc_p_list_le_next
+_off_proc_p_list_le_prev
+_off_proc_p_name
+_off_proc_p_pid
+_off_proc_p_proc_ro
+_off_proc_p_textvp
+_off_proc_ro_p_ucred
+_off_proc_ro_pr_task
+_off_socket_so_background_thread
+_off_socket_so_proto
+_off_socket_so_usecount
+_off_task_itk_space
+_off_task_map
+_off_task_task_exc_guard
+_off_task_threads_next
+_off_thread_ast
+_off_thread_ctid
+_off_thread_guard_exc_info_code
+_off_thread_mach_exc_info_code
+_off_thread_mach_exc_info_exception_type
+_off_thread_mach_exc_info_os_reason
+_off_thread_machine_contextdata
+_off_thread_machine_jop_pid
+_off_thread_machine_kstackptr
+_off_thread_machine_rop_pid
+_off_thread_machine_upcb
+_off_thread_mutex_lck_mtx_data
+_off_thread_options
+_off_thread_ro_tro_proc
+_off_thread_ro_tro_task
+_off_thread_t_tro
+_off_thread_task_threads_next
+_off_ucred_cr_label
+_off_vm_map_entry_links_next
+_off_vm_map_entry_vme_alias
+_off_vm_map_entry_vme_object_or_delta
+_off_vm_map_hdr
+_off_vm_map_header_links_next
+_off_vm_map_header_nentries
+_off_vm_map_pmap
+_off_vm_named_entry_backing_copy
+_off_vm_named_entry_size
+_off_vm_object_ref_count
+_off_vm_object_vo_un1_vou_size
+_off_vnode_v_data
+_off_vnode_v_flag
+_off_vnode_v_iocount
+_off_vnode_v_mount
+_off_vnode_v_name
+_off_vnode_v_ncchildren_tqh_first
+_off_vnode_v_nclinks_lh_first
+_off_vnode_v_parent
+_off_vnode_v_usecount
+_off_vnode_v_writecount
+_offsets_init
+_overwrite_system_file
+_pac_cleanup
+_parse_entitlements_from_property_list
+_patch_sandbox_ext
+_pcAddress
+_pfmetric_dynamic_xref_init
+_pfmetric_free
+_pfmetric_pattern_init
+_pfmetric_run
+_pfmetric_run_in_range
+_pfmetric_string_init
+_pfmetric_xref_init
+_pfsec_arm64_enumerate_xrefs
+_pfsec_arm64_resolve_adrp_ldr_str_add_reference
+_pfsec_arm64_resolve_adrp_ldr_str_add_reference_auto
+_pfsec_arm64_resolve_stub
+_pfsec_arm64_scan_register_write
+_pfsec_contains_vmaddr
+_pfsec_find_function_start
+_pfsec_find_memory
+_pfsec_find_memory_rel
+_pfsec_find_next_inst
+_pfsec_find_prev_inst
+_pfsec_free
+_pfsec_get_dsc
+_pfsec_get_macho
+_pfsec_get_raw_pointer
+_pfsec_info_populate_dsc_mapping
+_pfsec_info_populate_section
+_pfsec_info_populate_segment
+_pfsec_init_from_dsc_mapping
+_pfsec_init_from_macho
+_pfsec_read32
+_pfsec_read32_reloff
+_pfsec_read64
+_pfsec_read_at_address
+_pfsec_read_pointer
+_pfsec_read_reloff
+_pfsec_read_string
+_pfsec_read_string_reloff
+_pfsec_set_cached
+_pfsec_set_pointer_decoder
+_physical_oob_read_mo
+_physical_oob_read_mo_with_retry
+_physical_oob_write_mo
+_print_cdhash
+_print_entitlement_information
+_print_hash
+_proc_find
+_proc_find_by_name
+_proc_get_cred_label
+_proc_get_p_name
+_proc_name
+_proc_self
+_proc_task
+_ptrauth_blend_discriminator_wrapper
+_ptrauth_string_discriminator_special
+_put_shmem_in_cache
+_randomMarker
+_raw_buffer_find_memory
+_read_string
+_remote_hexdump
+_remote_pac
+_remote_read
+_remote_read64
+_remote_write
+_remote_write64
+_remote_writeStr
+_reply_with_state
+_research_sandbox
+_restore_trojan_thread
+_retry_first_thread
+_reveal_path_by_vnode
+_rwSocketPcb
+_setTargetKaddr
+_set_exception_port_on_thread
+_set_target_kaddr
+_sign_state
+_sizeof_ipc_entry
+_socketPcbIds
+_socketPorts
+_sockets_release
+_spray_socket
+_start_filter_bypass
+_status_bar_tweak
+_string_comparator
+_string_has_prefix
+_string_has_suffix
+_successReadCount
+_surface_mlock
+_surface_munlock
+_suynhuoc_len
+_t1sz_boot
+_targetObject
+_targetObjectOffset
+_task_get_ipc_port_kobject
+_task_get_ipc_port_object
+_task_get_ipc_port_table_entry
+_task_get_vm_map
+_task_self
+_thanhtay_len
+_thread_get_jop_pid
+_thread_get_kstackptr
+_thread_get_mutex
+_thread_get_options
+_thread_get_rop_pid
+_thread_get_state_wrapper
+_thread_get_t_tro
+_thread_get_task
+_thread_resume_wrapper
+_thread_set_mutex
+_thread_set_options
+_thread_set_pac_keys
+_thread_set_state_wrapper
+_tocbien_len
+_tochanh_len
+_trunc_page_16k
+_trungtri_len
+_unlock_sandbox_lock
+_unzCloseCurrentFile
+_unzGetCurrentFileInfo
+_unzGetCurrentFileInfo64
+_unzGetCurrentFileZStreamPos64
+_unzGetFilePos
+_unzGetFilePos64
+_unzGetGlobalComment
+_unzGetGlobalInfo
+_unzGetGlobalInfo64
+_unzGetLocalExtrafield
+_unzGetOffset
+_unzGetOffset64
+_unzGoToFilePos
+_unzGoToFilePos64
+_unzGoToFirstFile
+_unzGoToNextFile
+_unzLocateFile
+_unzOpen2_64
+_unzOpen64
+_unzOpenCurrentFile
+_unzOpenCurrentFile2
+_unzOpenCurrentFile3
+_unzOpenCurrentFilePassword
+_unzReadCurrentFile
+_unzSetOffset
+_unzSetOffset64
+_unzStringFileNameCompare
+_unz_copyright
+_unztell64
+_update_lc_code_signature
+_update_load_commands_for_coretrust_bypass
+_update_segment_command_64
+_vienbinh_len
+_vm_create_shmem_with_object
+_vm_entry_get_range
+_vm_get_object
+_vm_header_get_nentries
+_vm_map_entry_get_next_entry
+_vm_map_find_entry
+_vm_map_get_header
+_vm_map_header_get_first_entry
+_vm_map_iterate_entries
+_vm_map_remote_page
+_vm_pack_pointer
+_vm_shmem_free
+_vm_unpack_pointer
+_vnode_apfs_chmod
+_vnode_apfs_chown
+_vnode_fsnode
+_vnode_get_child_vnode
+_vnode_get_v_name
+_vnode_redirect_file
+_vnode_redirect_folder
+_vnode_unredirect_file
+_vnode_unredirect_folder
+_wait_exception
+_wait_for_mig_syscall
+_wiredPageMarker
+_zipCloseFileInZip
+_zipCloseFileInZipRaw
+_zipCloseFileInZipRaw64
+_zipOpen2_64
+_zipOpen64
+_zipOpenNewFileInZip
+_zipOpenNewFileInZip2
+_zipOpenNewFileInZip2_64
+_zipOpenNewFileInZip3
+_zipOpenNewFileInZip3_64
+_zipOpenNewFileInZip4
+_zipOpenNewFileInZip4_64
+_zipOpenNewFileInZip64
+_zipRemoveExtraInfoBlock
+_zipWriteInFileInZip
+_zip_copyright
+radr://5614542
+com.aov.ds
+B4592R85DM
+subject.CN
++iPhone Distribution: jinhao he (B4592R85DM)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<key>com.apple.developer.system-extension.install</key>
+<key>com.apple.developer.avfoundation.multitasking-camera-access</key>
+<key>com.apple.developer.networking.wifi-info</key>
+<key>com.apple.security.application-groups</key>
+<string>group.ff7949c9c9b627c6.4</string>
+<string>group.ff7949c9c9b627c6.5</string>
+<string>group.ff7949c9c9b627c6.3</string>
+<string>group.ff7949c9c9b627c6.2</string>
+<string>group.ff7949c9c9b627c6.1</string>
+<key>com.apple.developer.in-app-payments</key>
+<key>com.apple.developer.associated-domains</key>
+<string>*</string>
+<key>com.apple.developer.authentication-services.autofill-credential-provider</key>
+<key>com.apple.developer.ClassKit-environment</key>
+<string>production</string>
+<key>com.apple.developer.healthkit</key>
+<key>com.apple.developer.healthkit.access</key>
+<string>health-records</string>
+<key>com.apple.developer.homekit</key>
+<key>com.apple.developer.networking.HotspotConfiguration</key>
+<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+<string>B4592R85DM.*</string>
+<key>com.apple.developer.icloud-services</key>
+<key>com.apple.developer.icloud-container-identifiers</key>
+<key>com.apple.developer.icloud-container-development-container-identifiers</key>
+<key>com.apple.developer.usernotifications.communication</key>
+<key>com.apple.developer.usernotifications.time-sensitive</key>
+<key>com.apple.developer.ubiquity-container-identifiers</key>
+<key>inter-app-audio</key>
+<key>com.apple.developer.networking.multipath</key>
+<key>com.apple.developer.networking.networkextension</key>
+<string>app-proxy-provider</string>
+<string>content-filter-provider</string>
+<string>packet-tunnel-provider</string>
+<string>dns-proxy</string>
+<string>dns-settings</string>
+<string>relay</string>
+<string>url-filter-provider</string>
+<string>hotspot-provider</string>
+<key>com.apple.developer.nfc.readersession.formats</key>
+<string>NDEF</string>
+<string>TAG</string>
+<string>PACE</string>
+<key>aps-environment</key>
+<key>com.apple.developer.siri</key>
+<key>com.apple.developer.networking.vpn.api</key>
+<string>allow-vpn</string>
+<key>com.apple.external-accessory.wireless-configuration</key>
+<key>com.apple.developer.pass-type-identifiers</key>
+<key>com.apple.developer.coremedia.hls.low-latency</key>
+<key>com.apple.developer.devicecheck.appattest-environment</key>
+<string>development</string>
+<key>com.apple.developer.kernel.extended-virtual-addressing</key>
+<key>com.apple.developer.healthkit.recalibrate-estimates</key>
+<key>application-identifier</key>
+<string>B4592R85DM.app.kumquat2515.spinach8011</string>
+<key>keychain-access-groups</key>
+<string>com.apple.token</string>
+<key>com.apple.developer.weatherkit</key>
+<key>get-task-allow</key>
+<key>com.apple.developer.team-identifier</key>
+<string>B4592R85DM</string>
+<key>com.apple.developer.kernel.increased-debugging-memory-limit</key>
+<key>com.apple.developer.game-center</key>
+<key>com.apple.developer.kernel.increased-memory-limit</key>
+<key>com.apple.developer.healthkit.background-delivery</key>
+<key>com.apple.developer.user-fonts</key>
+<string>app-usage</string>
+<string>system-installation</string>
+<key>com.apple.developer.applesignin</key>
+<string>Default</string>
+,com.apple.developer.system-extension.install
+;com.apple.developer.avfoundation.multitasking-camera-access
+(com.apple.developer.networking.wifi-info
+%com.apple.security.application-groups0
+group.ff7949c9c9b627c6.4
+group.ff7949c9c9b627c6.5
+group.ff7949c9c9b627c6.3
+group.ff7949c9c9b627c6.2
+group.ff7949c9c9b627c6.10'
+#com.apple.developer.in-app-payments0
+&com.apple.developer.associated-domains
+Hcom.apple.developer.authentication-services.autofill-credential-provider
+(com.apple.developer.ClassKit-environment0
+production0"
+com.apple.developer.healthkit
+$com.apple.developer.healthkit.access0
+health-records0 
+com.apple.developer.homekit
+3com.apple.developer.networking.HotspotConfiguration
+/com.apple.developer.ubiquity-kvstore-identifier
+B4592R85DM.*0(
+#com.apple.developer.icloud-services
+0com.apple.developer.icloud-container-identifiers0
+Fcom.apple.developer.icloud-container-development-container-identifiers0
+3com.apple.developer.usernotifications.communication
+4com.apple.developer.usernotifications.time-sensitive
+2com.apple.developer.ubiquity-container-identifiers0
+inter-app-audio
+(com.apple.developer.networking.multipath
+/com.apple.developer.networking.networkextension0
+app-proxy-provider
+content-filter-provider
+packet-tunnel-provider
+dns-settings
+url-filter-provider
+hotspot-provider0B
+-com.apple.developer.nfc.readersession.formats0
+aps-environment
+production0
+com.apple.developer.siri
+&com.apple.developer.networking.vpn.api0
+allow-vpn08
+3com.apple.external-accessory.wireless-configuration
+)com.apple.developer.pass-type-identifiers0
+B4592R85DM.*02
+-com.apple.developer.coremedia.hls.low-latency
+5com.apple.developer.devicecheck.appattest-environment0
+development
+production0;
+6com.apple.developer.kernel.extended-virtual-addressing
+3com.apple.developer.healthkit.recalibrate-estimates
+application-identifier
+&B4592R85DM.app.kumquat2515.spinach801109
+keychain-access-groups0
+B4592R85DM.*
+com.apple.token0#
+com.apple.developer.weatherkit
+get-task-allow
+#com.apple.developer.team-identifier
+B4592R85DM0@
+;com.apple.developer.kernel.increased-debugging-memory-limit
+com.apple.developer.game-center
+1com.apple.developer.kernel.increased-memory-limit
+1com.apple.developer.healthkit.background-delivery
+com.apple.developer.user-fonts0 
+system-installation0,
+com.apple.developer.applesignin0
+Apple Inc.1&0$
+Apple Certification Authority1
+Apple Root CA0
+200219181347Z
+300220000000Z0u1D0B
+;Apple Worldwide Developer Relations Certification Authority1
+Apple Inc.1
+(http://ocsp.apple.com/ocsp03-applerootca0.
+http://crl.apple.com/root.crl0
+060425214036Z
+350209214036Z0b1
+https://www.apple.com/appleca/0
+Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.0
+260506164552Z
+270506164551Z0
+B4592R85DM1402
++iPhone Distribution: jinhao he (B4592R85DM)1
+B4592R85DM1
+jinhao he1
+!http://certs.apple.com/wwdrg3.der01
+%http://ocsp.apple.com/ocsp03-wwdrg3020
+Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.07
++https://www.apple.com/certificateauthority/0
+260713221219Z0/
+H<?xml version="1.0" encoding="UTF-8"?>
+<key>cdhashes</key>
+TzfwGWihN70adXGVJWTbC3ZCSMo=
+aUMIz+J+7KR2A1LTAIKDd9CQzYg=

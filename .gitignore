@@ -1,0 +1,13 @@
+# Xcode
+build/
+*.pbxproj
+*.xcworkspace
+xcuserdata/
+.DS_Store
+
+# XcodeGen
+*.xcodeproj/
+
+# App/IPA
+Payload/
+*.ipa
