@@ -16,10 +16,6 @@ targets:
           - "Info.plist"
           - "AovDarksword.entitlements"
           - "Makefile"
-          - "Resources/Settings.bundle"
-      - path: Source/Resources/Settings.bundle
-        type: folder
-        buildPhase: resources
     frameworks:
       - framework: Foundation.framework
       - framework: UIKit.framework
