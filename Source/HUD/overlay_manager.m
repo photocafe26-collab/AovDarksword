@@ -4,6 +4,7 @@
  */
 
 #import "overlay_manager.h"
+#import <UIKit/UIKit.h>
 #import "KFHUDWindow.h"
 #import "KFHUDESPView.h"
 #import "SecureESPField.h"
@@ -12,6 +13,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <objc/runtime.h>
 #import <dlfcn.h>
+
 
 @implementation OverlayManager {
     KFHUDWindow     *_localWindow;
