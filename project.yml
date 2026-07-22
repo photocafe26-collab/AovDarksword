@@ -1,19 +1,57 @@
 name: AovDarksword
 options:
   bundleIdPrefix: com.aov.ds
+  deploymentTarget:
+    iOS: "17.0"
 targets:
   AovDarksword:
     type: application
     platform: iOS
+    deploymentTarget: "17.0"
+    info:
+      path: Source/Info.plist
+      properties:
+        CFBundleIdentifier: com.aov.ds.AovDarksword
+        CFBundleExecutable: AovDarksword
     sources:
       - path: Source
+        excludes:
+          - "Info.plist"
+          - "AovDarksword.entitlements"
+          - "Makefile"
+    frameworks:
+      - framework: Foundation.framework
+      - framework: UIKit.framework
+      - framework: QuartzCore.framework
+      - framework: CoreGraphics.framework
+      - framework: IOSurface.framework
+      - framework: Photos.framework
+      - framework: PhotosUI.framework
+      - framework: Security.framework
+      - framework: MobileCoreServices.framework
+      - framework: UniformTypeIdentifiers.framework
+      - framework: AVFAudio.framework
+      - framework: AVKit.framework
+      - framework: CoreFoundation.framework
+      - framework: SafariServices.framework
+      - framework: WebKit.framework
+      - sdk: libc++.tbd
+      - sdk: libz.tbd
     settings:
       CODE_SIGNING_ALLOWED: NO
       CODE_SIGNING_REQUIRED: NO
       CODE_SIGN_IDENTITY: ""
       ARCHS: arm64
-      IPHONEOS_DEPLOYMENT_TARGET: 17.0
+      IPHONEOS_DEPLOYMENT_TARGET: "17.0"
       CODE_SIGN_ENTITLEMENTS: Source/AovDarksword.entitlements
+      OTHER_CFLAGS:
+        - "-fobjc-arc"
+        - "-Wno-unused-variable"
+        - "-Wno-unused-function"
+        - "-Wno-deprecated-declarations"
+        - "-DVERSION=\\\"1.4\\\""
+      OTHER_LDFLAGS:
+        - "-Wl,-undefined,dynamic_lookup"
       HEADER_SEARCH_PATHS:
         - $(SRCROOT)/Source
         - $(SRCROOT)/Source/Core
@@ -22,4 +60,3 @@ targets:
         - $(SRCROOT)/Source/Mod
         - $(SRCROOT)/Source/Tweaks
         - $(SRCROOT)/Source/Utils
-
