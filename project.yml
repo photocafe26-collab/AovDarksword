@@ -42,11 +42,10 @@ targets:
       CODE_SIGNING_ALLOWED: NO
       CODE_SIGNING_REQUIRED: NO
       CODE_SIGN_IDENTITY: ""
+      CLANG_ENABLE_OBJC_ARC: YES
       ARCHS: arm64
       IPHONEOS_DEPLOYMENT_TARGET: "17.0"
-      CODE_SIGN_ENTITLEMENTS: Source/AovDarksword.entitlements
       OTHER_CFLAGS:
-        - "-fobjc-arc"
         - "-Wno-unused-variable"
         - "-Wno-unused-function"
         - "-Wno-deprecated-declarations"
