@@ -1,35 +1,40 @@
+/*
+ * AppDelegate.m — AovDarksword 1.4
+ */
 #import "AppDelegate.h"
-#import "ViewController.h"
-
-@interface AppDelegate ()
-
-@end
+#import <AVFAudio/AVFAudio.h>
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
-    ViewController *rootVC = [[ViewController alloc] init];
-    self.window.rootViewController = rootVC;
-    [self.window makeKeyAndVisible];
-    
+- (BOOL)application:(UIApplication *)application
+    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    /* Audio session for background keep-alive */
+    NSError *err = nil;
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    [session setCategory:AVAudioSessionCategoryPlayback
+             withOptions:AVAudioSessionCategoryOptionMixWithOthers
+                   error:&err];
+    [session setActive:YES error:&err];
+    if (err) NSLog(@"[AUDIO] session error: %@", err);
+
+    NSLog(@"[KFHUD] delegate didFinishLaunching");
     return YES;
 }
 
-#pragma mark - UISceneSession lifecycle
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
+- (UISceneConfiguration *)application:(UIApplication *)application
+    configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession
+    options:(UISceneConnectionOptions *)options {
+    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration"
+                                          sessionRole:connectingSceneSession.role];
 }
 
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    __block UIBackgroundTaskIdentifier bgTask =
+        [application beginBackgroundTaskWithExpirationHandler:^{
+        [application endBackgroundTask:bgTask];
+        bgTask = UIBackgroundTaskInvalid;
+    }];
 }
 
 @end

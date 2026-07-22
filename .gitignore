@@ -11,3 +11,8 @@ xcuserdata/
 # App/IPA
 Payload/
 *.ipa
+
+# Logs and dumps
+build_log.txt
+strings_dump.txt
+

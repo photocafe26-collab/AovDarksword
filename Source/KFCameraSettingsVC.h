@@ -1,5 +1,2 @@
-#import <UIKit/UIKit.h>
-
-@interface KFCameraSettingsVC : UIViewController
-
-@end
+/* KFCameraSettingsVC.h */ #import <UIKit/UIKit.h>
+@interface KFCameraSettingsVC : UIViewController @end
