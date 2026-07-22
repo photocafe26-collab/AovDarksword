@@ -1,5 +1,7 @@
 /* KFHUDAppDelegate.m — HUD process delegate */
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+
 
 @interface KFHUDAppDelegate : UIResponder <UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow *window;

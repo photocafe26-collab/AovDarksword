@@ -35,13 +35,7 @@ jobs:
             CODE_SIGN_IDENTITY="" \
             CODE_SIGN_ENTITLEMENTS="" \
             AD_HOC_CODE_SIGNING_ALLOWED=YES \
-            COMPILER_INDEX_STORE_ENABLE=NO > xcodebuild.log 2>&1
-
-      - name: Print xcodebuild log on failure
-        if: failure()
-        run: |
-          echo "=== XCODEBUILD LOG OUTPUT ==="
-          cat xcodebuild.log
+            COMPILER_INDEX_STORE_ENABLE=NO
 
       - name: Package IPA
         run: |

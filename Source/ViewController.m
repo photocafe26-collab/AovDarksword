@@ -9,11 +9,13 @@
 #import "KFCameraSettingsVC.h"
 #import "KFHUDESPView.h"
 #import "aov_offsets.h"
+#import <QuartzCore/QuartzCore.h>
 #import <WebKit/WKWebView.h>
 #import <AVKit/AVKit.h>
 #import <SafariServices/SafariServices.h>
 #import <objc/runtime.h>
 #import <sys/utsname.h>
+
 
 /* Colors */
 #define BG_COLOR      [UIColor colorWithRed:0.11 green:0.11 blue:0.12 alpha:1]

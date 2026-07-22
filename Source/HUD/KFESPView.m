@@ -1,8 +1,10 @@
 /* KFESPView.m — Main process ESP view, 30fps display link */
 #import "KFESPView.h"
 #import "aov_offsets.h"
+#import <QuartzCore/QuartzCore.h>
 #import <sys/mman.h>
 #import <fcntl.h>
+
 
 @implementation KFESPView {
     CADisplayLink *_displayLink;
