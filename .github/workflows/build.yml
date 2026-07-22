@@ -12,34 +12,36 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-      
+
       - name: Install XcodeGen
         run: brew install xcodegen
-      
+
       - name: Generate Xcode Project
         run: xcodegen generate
-      
+
       - name: Build App from Source
         run: |
+          set -o pipefail
           xcodebuild clean build \
             -project AovDarksword.xcodeproj \
             -scheme AovDarksword \
             -configuration Release \
             -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
             -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
-            CODE_SIGNING_REQUIRED=NO
-      
+            AD_HOC_CODE_SIGNING_ALLOWED=YES 2>&1 | tee xcodebuild.log || (echo "=== BUILD ERROR SUMMARY ===" && grep -i -E "error:|failed" xcodebuild.log | head -n 50 && exit 1)
+
       - name: Package IPA
         run: |
           mkdir -p Payload
           cp -r build/Build/Products/Release-iphoneos/AovDarksword.app Payload/
           zip -r AovDarksword.ipa Payload
-      
+
       - name: Upload IPA Artifact
         uses: actions/upload-artifact@v4
         with:
           name: AovDarksword-IPA
           path: AovDarksword.ipa
-
