@@ -46,6 +46,7 @@ typedef struct __attribute__((packed)) {
 
 #pragma mark - UserDefaults Keys
 
+#ifdef __OBJC__
 /* Minimap */
 #define KF_KEY_MM_OFFSET_X      @"kf_mmOffsetX"
 #define KF_KEY_MM_OFFSET_Y      @"kf_mmOffsetY"
@@ -72,6 +73,35 @@ typedef struct __attribute__((packed)) {
 
 /* Camera */
 #define KF_KEY_CAM_PRESET_IDX   @"kf_camPresetIdx"
+#else
+/* Minimap */
+#define KF_KEY_MM_OFFSET_X      "kf_mmOffsetX"
+#define KF_KEY_MM_OFFSET_Y      "kf_mmOffsetY"
+
+/* Info Panel */
+#define KF_KEY_IP_SCALE         "kf_ipScale"
+#define KF_KEY_IP_OFFSET_X      "kf_ipOffsetX"
+#define KF_KEY_IP_OFFSET_Y      "kf_ipOffsetY"
+
+/* ESP Toggles */
+#define KF_KEY_SHOW_BOX         "kf_showBox"
+#define KF_KEY_SHOW_LINE        "kf_showLine"
+#define KF_KEY_SHOW_MINIMAP     "kf_showMinimap"
+#define KF_KEY_SHOW_DIST        "kf_showDist"
+#define KF_KEY_SHOW_MONSTER     "kf_showMonster"
+#define KF_KEY_SHOW_HPBAR       "kf_showHPBar"
+#define KF_KEY_SHOW_NAME        "kf_showName"
+#define KF_KEY_SHOW_MONSTER_HP  "kf_showMonsterHP"
+#define KF_KEY_ELITE_ONLY       "kf_eliteOnly"
+#define KF_KEY_SHOW_INFO        "kf_showInfo"
+#define KF_KEY_STREAM_MODE      "kf_streamMode"
+#define KF_KEY_SHOW_ICON        "kf_showIcon"
+#define KF_KEY_SHOW_MONSTER_NAME "kf_showMonsterName"
+
+/* Camera */
+#define KF_KEY_CAM_PRESET_IDX   "kf_camPresetIdx"
+#endif
+
 
 #pragma mark - IL2CPP Offsets (resolved at runtime)
 

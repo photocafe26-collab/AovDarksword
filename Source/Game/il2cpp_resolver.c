@@ -10,7 +10,12 @@
 #include <stdio.h>
 #include <string.h>
 #include <mach/mach_vm.h>
+#if __has_include(<libproc.h>)
 #include <libproc.h>
+#else
+int proc_pidpath(int pid, void *buffer, uint32_t buffersize);
+#endif
+
 
 #pragma mark - Offset Globals (resolved at runtime)
 

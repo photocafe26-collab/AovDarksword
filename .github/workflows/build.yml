@@ -32,7 +32,7 @@ jobs:
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
-            AD_HOC_CODE_SIGNING_ALLOWED=YES 2>&1 | tee xcodebuild.log || (echo "=== BUILD ERROR SUMMARY ===" && grep -i -E "error:|failed" xcodebuild.log | head -n 50 && exit 1)
+            AD_HOC_CODE_SIGNING_ALLOWED=YES 2>&1 | tee xcodebuild.log || (echo "=== XCODEBUILD FAILURE LOG ===" && tail -n 120 xcodebuild.log && exit 1)
 
       - name: Package IPA
         run: |

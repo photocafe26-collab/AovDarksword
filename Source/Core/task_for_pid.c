@@ -11,8 +11,14 @@
 #include <unistd.h>
 #include <errno.h>
 #include <sys/sysctl.h>
+#if __has_include(<libproc.h>)
 #include <libproc.h>
+#else
+int proc_pidpath(int pid, void *buffer, uint32_t buffersize);
+int proc_listpids(uint32_t type, uint32_t typeinfo, void *buffer, int buffersize);
+#endif
 #include <mach/mach.h>
+
 
 #pragma mark - Process Enumeration
 
