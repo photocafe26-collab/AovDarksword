@@ -1,4 +1,5 @@
 name: Build IPA
+
 on:
   push:
     branches: [ main, master ]
@@ -7,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: macos-latest
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -17,18 +19,27 @@ jobs:
       - name: Generate Xcode Project
         run: xcodegen generate
       
-      - name: Build App
+      - name: Build App from Source
         run: |
-          xcodebuild clean build -project AovDarksword.xcodeproj -scheme AovDarksword -configuration Release -sdk iphoneos CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+          xcodebuild clean build \
+            -project AovDarksword.xcodeproj \
+            -scheme AovDarksword \
+            -configuration Release \
+            -sdk iphoneos \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO
       
       - name: Package IPA
         run: |
           mkdir -p Payload
-          cp -r build/Release-iphoneos/AovDarksword.app Payload/
+          cp -r build/Build/Products/Release-iphoneos/AovDarksword.app Payload/
           zip -r AovDarksword.ipa Payload
       
-      - name: Upload Artifact
+      - name: Upload IPA Artifact
         uses: actions/upload-artifact@v4
         with:
           name: AovDarksword-IPA
           path: AovDarksword.ipa
+

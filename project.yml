@@ -5,7 +5,8 @@ targets:
   AovDarksword:
     type: application
     platform: iOS
-    sources: [Source]
+    sources:
+      - path: Source
     settings:
       CODE_SIGNING_ALLOWED: NO
       CODE_SIGNING_REQUIRED: NO
@@ -13,3 +14,12 @@ targets:
       ARCHS: arm64
       IPHONEOS_DEPLOYMENT_TARGET: 17.0
       CODE_SIGN_ENTITLEMENTS: Source/AovDarksword.entitlements
+      HEADER_SEARCH_PATHS:
+        - $(SRCROOT)/Source
+        - $(SRCROOT)/Source/Core
+        - $(SRCROOT)/Source/Game
+        - $(SRCROOT)/Source/HUD
+        - $(SRCROOT)/Source/Mod
+        - $(SRCROOT)/Source/Tweaks
+        - $(SRCROOT)/Source/Utils
+
