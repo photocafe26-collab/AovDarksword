@@ -21,7 +21,6 @@ jobs:
 
       - name: Build App from Source
         run: |
-          set -o pipefail
           xcodebuild clean build \
             -project AovDarksword.xcodeproj \
             -scheme AovDarksword \
@@ -32,7 +31,13 @@ jobs:
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
-            AD_HOC_CODE_SIGNING_ALLOWED=YES 2>&1 | tee xcodebuild.log || (echo "=== XCODEBUILD FAILURE LOG ===" && tail -n 120 xcodebuild.log && exit 1)
+            AD_HOC_CODE_SIGNING_ALLOWED=YES 2>&1 | tee xcodebuild.log
+          STATUS=${PIPESTATUS[0]}
+          if [ $STATUS -ne 0 ]; then
+            echo "=== XCODEBUILD FAILURE LOG ==="
+            tail -n 120 xcodebuild.log
+            exit $STATUS
+          fi
 
       - name: Package IPA
         run: |

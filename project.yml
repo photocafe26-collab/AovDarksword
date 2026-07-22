@@ -10,15 +10,16 @@ targets:
     deploymentTarget: "17.0"
     info:
       path: Source/Info.plist
-      properties:
-        CFBundleIdentifier: com.aov.ds.AovDarksword
-        CFBundleExecutable: AovDarksword
     sources:
       - path: Source
         excludes:
           - "Info.plist"
           - "AovDarksword.entitlements"
           - "Makefile"
+          - "Resources/Settings.bundle"
+      - path: Source/Resources/Settings.bundle
+        type: folder
+        buildPhase: resources
     frameworks:
       - framework: Foundation.framework
       - framework: UIKit.framework

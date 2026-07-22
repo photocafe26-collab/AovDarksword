@@ -7,7 +7,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Aov Darksword</string>
 	<key>CFBundleExecutable</key>
-	<string>AovCheat</string>
+	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.aov.ds</string>
 	<key>CFBundleInfoDictionaryVersion</key>
